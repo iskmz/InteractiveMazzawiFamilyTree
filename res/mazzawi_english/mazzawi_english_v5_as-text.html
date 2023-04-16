@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta content="text/html; charset=UTF-8"/>
+<meta charset="UTF-8">
+<title>Family Tree (v5) as-text</title>
+</head>
+
+<body>
+
+<div id="treeText" dir="ltr"></div>
+
+<!---------------------------------------------------------------------------------------------->
+
+<script type="text/javascript" charset="UTF-8" src="mazzawi_english_v5_data.js"></script> 
+
+<!-- ...v5_data.js was shortened enough to fit only requirements of text-tree -->
+<!-- also code below was changed accordingly ... -->
+
+<script type="text/javascript" charset="UTF-8">
+
+const SP = "&emsp;";
+const LB = "&#9500;&#9472;&#9472;&nbsp;";  // ├──
+const LB_last = "&#9492;&#9472;&#9472;&nbsp;"; // └──
+const LL = "&#9474;&emsp;";  // │
+
+function getPreText(preStr,nextPreStr,nextTxtStr)
+{
+	var res = "";
+	var ch;
+	for(var j=0; j<preStr.length; j++)
+	{
+		ch = preStr.charAt(j);
+		if(ch==='s') 
+			res += SP
+		if(ch==='B') 
+		{
+			if(nextPreStr.length != preStr.length) 
+				res += LB_last;
+			else if (nextTxtStr.charAt(0)=='+' && nextPreStr.charAt(nextPreStr.length-1)=='s') 
+				res += LB_last;
+			else
+				res += LB;
+		}
+		if(ch==='L') 
+			res += LL;
+	}
+	return res;
+}
+
+function generateTextTree()
+{
+	var i;
+	var len = dataArr.length;
+	var resultStr = "";
+	var row;
+	
+	for(i=0; i < len-1; i++)
+	{
+		row = dataArr[i];
+		resultStr += "<br/>" + getPreText(row.pre,dataArr[i+1].pre,dataArr[i+1].txt); // pre-text generation
+		resultStr += row.txt; // add family member name
+	}
+	document.getElementById("treeText").innerHTML = resultStr;
+}
+
+generateTextTree();
+
+</script>
+
+</body>
+</html>

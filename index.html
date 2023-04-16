@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Interactive Mazzawi Family Tree </title>
+
+<meta name="description" content="شجرة عائلة المزاوي - 1949 , الناصرة  ;  Mazzawi Family Tree - 1949 , Nazareth ; Interactive Mazzawi Tree ; Mazzawi ; Family ; Tree ; 1949 ; 2009 ; 2023">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=UTF-8"/>
+<meta charset="UTF-8">
+
+<link rel="icon" type="image/x-icon" href="./res/icons8-tree-64.ico">
+
+
+<script type="text/javascript" src="./res/jquery-3.3.1.min.js"></script>		<!-- LICENSE at:  ./res/LICENSE_jquery.txt 		-->
+<script type="text/javascript" src="./res/jquery.maphilight.min.js"></script>	<!-- LICENSE at:  ./res/LICENSE_maphilight.txt 	-->
+<script type="text/javascript">
+    $(function () {
+        $('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: false });
+    });
+</script>
+	
+<style>
+
+@media (pointer: coarse), (hover: none) {
+	  [title] {
+		position: relative;
+		display: inline-flex;
+		justify-content: center;
+	  }
+	  [title]:focus::after {
+		content: attr(title);
+		position: absolute;
+		top: 90%;
+		color: #000;
+		background-color: #fff;
+		border: 1px solid;
+		width: fit-content;
+		padding: 3px;
+	  }
+}
+	
+/* The Modal (background) */
+.modal {
+  display: none; 	/* Hidden by default */
+  position: fixed; 	/* Stay in place */
+  z-index: 1; 		/* Sit on top */
+  padding-top: 25px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #ffffff;
+  opacity: 0.8;
+  margin: auto;
+  padding: 20px;
+  border: 2px dashed #000;
+  border-radius: 8px;
+  width: fit-content;
+  block-size: fit-content;
+  overflow: auto;
+  max-width: 95%;
+  max-height: 95%;
+}
+
+</style>
+</head>
+
+<!-------------------------------------------------------------------------------->
+
+<body bgcolor="#aaccef" style="text-align:center"  topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<div style="background-color:#000000;color:white; font-family: monospace; padding: 4px">
+best at <b style="color:red">100%</b> zoom on a <b style="color:red">desktop</b> PC ; press <b style="color:yellow"><u>F11</u></b> for full-screen , <b style="color:yellow"><u>ALT+F4</u></b> to quit<br/>
+<b style="color:orange">hover</b> over a leaf / branch to highlight it , <b style="color:orange">click</b> to show subTree & additional info
+</div>
+<br/>
+
+<h2>Interactive Mazzawi Family Tree</h2>
+<i style="color:#3333bb"><h3> a merger of the 
+<a style="color:#3333bb" href="./res/mazzawi-family-tree-1949.png" target="_blank">1949 drawing</a> & the 
+<a style="color:#3333bb" href="./res/mazzawi_english/mazzawi_english_v3.html" target="_blank">2009 english language tree</a>
+</h3></i>
+<br/>
+
+<!-- img width & height MUST stay fixed , so that map works consistenly while zooming in & out. DO NOT CHANGE! -->
+<div class="imageContainer" align="center">
+<img id="mz1949img" src="./res/mazzawi-family-tree-1949.png" alt="Mazzawi Family Tree 1949 شجرة عائلة المزاوي" width=1000 height=1466 usemap="#treeMap" class="map"/>
+<br/>
+<input id="btnAllHighlights" type="button" value="Show All Highlights"/>
+</div>
+<br/>
+<br/>
+
+<!-- coordinates done using https://www.image-map.net/  ... had to resize original image file to 1000x1466 to get exact ones! -->
+<map id="treeMap" name="treeMap">
+
+<!-- under-tree , about family -->
+<area title="Mazzawi Family &#13; آل مزاوي" alt="./res/about_family.png" shape="rect" coords="4,1349,999,1464" href="#">
+
+<!-- Branches section / polygons -->
+<area title="Ibrahim Al-Doumany (Mazzawi) &#13; ابراهيم الدوماني (مزاوي)" alt="./branches/IbrahimDoumanyMazzawi.png" shape="poly" coords="392,1158,478,1153,527,1151,571,1150,573,1171,578,1206,588,1247,602,1271,617,1278,627,1286,637,1286,671,1291,700,1296,748,1303,776,1313,819,1326,795,1338,740,1343,703,1342,588,1342,480,1345,392,1346,345,1345,259,1346,233,1327,273,1320,332,1307,368,1297,391,1279,399,1255,401,1211,394,1175" href="#">
+
+<area title="Moussa Ibrahim &#13; موسى ابراهيم" alt="./branches/MoussaIbrahim.png" shape="poly" coords="574,1145,575,1127,573,1108,584,1077,592,1055,613,1022,603,1009,593,994,576,987,566,1002,554,1023,546,1041,532,1069,522,1100,516,1123,511,1139,510,1146" href="#">
+	
+	<area title="Yousef Moussa Ibrahim &#13; يوسف موسى ابراهيم" alt="./branches/YousefMoussaIbrahim.png" shape="poly" coords="602,1001,610,994,620,981,628,971,642,956,652,952,663,949,675,943,692,938,696,919,678,922,659,928,644,935,628,941,616,957,606,969,599,985,590,990" href="#">
+		<area title="Elias Yousef Moussa Ibrahim &#13; الياس يوسف موسى ابراهيم" alt="./branches/EliasYousefMoussaIbrahim.png" shape="poly" coords="693,936,697,929,708,929,722,933,737,943,751,953,765,960,780,963,784,970,770,970,755,963,737,957,721,953,701,946" href="#">
+			<area title="Boulos Elias Yousef Moussa &#13; بولس الياس يوسف موسى" alt="./branches/BoulosEliasYousefMoussa.png" shape="poly" coords="788,973,783,962,812,963,829,966,838,968,843,973,832,979,824,982,810,980,797,977" href="#">
+		<area title="Moussa Yousef Moussa Ibrahim &#13; موسى يوسف موسى ابراهيم" alt="./branches/MoussaYousefMoussaIbrahim.png" shape="poly" coords="694,927,699,916,711,907,732,900,741,896,762,886,796,880,794,892,773,897,751,909,732,918,720,928,707,927" href="#">
+			<area title="Tawfik Moussa Yousef Moussa &#13; توفيق موسى يوسف موسى" alt="./branches/TawfikMoussaYousefMoussa.png" shape="poly" coords="797,889,812,882,826,882,842,883,854,889,866,900,850,904,836,904,822,903,807,894" href="#">
+			<area title="Elias Moussa Yousef Moussa &#13; الياس موسى يوسف موسى" alt="./branches/EliasMoussaYousefMoussa.png" shape="poly" coords="797,883,812,879,822,871,835,861,846,855,859,850,871,840,884,820,867,821,856,826,838,838,826,850,815,859,804,872" href="#">
+	
+	<area title="Dahoud Moussa Ibrahim &#13; داود موسى ابراهيم" alt="./branches/DahoudMoussaIbrahim.png" shape="poly" coords="665,866,679,867,685,876,672,888,654,905,641,920,633,932,620,943,613,951,600,969,595,981,588,989,576,982,582,971,592,951,602,934,614,918,628,899,640,892,652,877" href="#">
+		<area title="Sleiman Dahoud Moussa Ibrahim &#13; سليمان داود موسى ابراهيم" alt="./branches/SleimanDahoudMoussaIbrahim.png" shape="poly" coords="696,864,701,852,713,838,721,834,731,831,749,824,765,816,773,807,781,814,756,830,738,837,727,850,718,862,707,865" href="#">
+			<area title="Elias Sleiman Dahoud Moussa &#13; الياس سليمان داود موسى" alt="./branches/EliasSleimanDahoudMoussa.png" shape="poly" coords="791,797,800,792,811,769,814,756,821,745,821,722,812,677,817,634,807,649,808,694,811,719,798,746,797,766,793,782" href="#">
+				<area title="Nimer Elias Sleiman Dahoud &#13; نمر الياس سليمان داود" alt="./branches/NimerEliasSleimanDahoud.png" shape="poly" coords="810,636,821,626,829,609,836,607,842,601,847,586,859,574,849,570,838,574,825,583,821,593,818,600,811,611,810,622" href="#">
+			<area title="Abdou Sleiman Dahoud Moussa &#13; عبده سليمان داود موسى" alt="./branches/AbdouSleimanDahoudMoussa.png" shape="poly" coords="759,827,776,819,787,817,803,823,790,824,796,833,787,838,774,837" href="#">
+			<area title="Dahoud Sleiman Dahoud Moussa &#13; داود سليمان داود موسى" alt="./branches/DahoudSleimanDahoudMoussa.png" shape="poly" coords="793,796,804,792,818,771,833,740,833,720,842,696,869,660,867,673,850,699,850,709,846,722,845,737,838,748,831,765,822,778,812,795" href="#">
+			<area title="Gerges Sleiman Dahoud Moussa &#13; جرجس سليمان داود موسى" alt="./branches/GergesSleimanDahoudMoussa.png" shape="poly" coords="798,802,808,798,815,798,821,793,829,782,846,774,862,765,874,757,871,767,863,775,852,789,839,798,824,805,810,805" href="#">
+		<area title="Yousef Dahoud Moussa Ibrahim &#13; يوسف داود موسى ابراهيم" alt="./branches/YousefDahoudMoussaIbrahim.png" shape="poly" coords="696,854,706,843,715,834,721,823,724,809,727,798,737,770,727,777,721,788,714,813,708,828" href="#">
+			<area title="Salim Yousef Dahoud Moussa &#13; سليم يوسف داود موسى" alt="./branches/SalimYousefDahoudMoussa.png" shape="poly" coords="727,770,741,765,752,760,755,750,763,733,748,737,735,754" href="#">	
+		<area title="Ibrahim Dahoud Moussa Ibrahim &#13; ابراهيم داود موسى ابراهيم" alt="./branches/IbrahimDahoudMoussaIbrahim.png" shape="poly" coords="696,848,703,829,710,814,714,800,715,787,715,765,724,734,717,742,711,754,704,775,700,791,699,812" href="#">
+			<area title="Jeryes Ibrahim Dahoud Moussa &#13; جريس ابراهيم داود موسى" alt="./branches/JeryesIbrahimDahoudMoussa.png" shape="poly" coords="725,734,722,722,728,702,729,687,724,675,731,666,735,675,737,688,737,701,742,712,739,720,734,729" href="#">
+		<area title="Iseed Dahoud Moussa Ibrahim &#13; اسعيد داود موسى ابراهيم" alt="./branches/IseedDahoudMoussaIbrahim.png" shape="poly" coords="693,842,696,818,696,786,696,762,694,742,689,720,687,697,686,675,683,707,686,731,687,755,689,775,686,793,686,810,690,828" href="#">
+			<area title="Jarmas Iseed Dahoud Moussa &#13; جرمس اسعيد داود موسى" alt="./branches/JarmasIseedDahoudMoussa.png" shape="poly" coords="682,675,689,670,694,661,694,642,694,625,703,604,708,590,721,576,748,569,735,562,721,566,710,574,700,587,689,607,682,625,680,638,676,656,678,664" href="#">
+		<area title="Khalil Dahoud Moussa Ibrahim &#13; خليل داود موسى ابراهيم" alt="./branches/KhalilDahoudMoussaIbrahim.png" shape="poly" coords="685,849,686,832,675,821,668,798,668,776,658,776,658,789,662,807,666,818,669,828,663,841,673,849,683,862" href="#">	
+
+<area title="Khalil Ibrahim &#13; خليل ابراهيم" alt="./branches/KhalilIbrahim.png" shape="poly" coords="498,1145,495,1131,491,1117,490,1101,494,1084,498,1075,486,1072,472,1071,458,1070,451,1073,435,1074,418,1079,410,1077,397,1080,379,1080,370,1084,354,1091,348,1100,351,1106,361,1115,370,1128,379,1137,385,1144,389,1152" href="#">
+	
+	<area title="Nasser Khalil Ibrahim &#13; ناصر خليل ابراهيم" alt="./branches/NasserKhalilIbrahim.png" shape="poly" coords="498,1071,506,1058,519,1044,530,1020,534,1002,538,988,540,971,531,957,516,954,509,960,501,968,495,993,488,1007,477,1021,472,1028,461,1038,450,1041,463,1054,470,1066" href="#">
+		<area title="Khalil Nasser Khalil Ibrahim &#13; خليل ناصر خليل ابراهيم" alt="./branches/KhalilNasserKhalilIbrahim.png" shape="poly" coords="524,948,529,934,533,918,538,910,534,889,537,861,548,828,554,815,544,797,534,821,529,835,529,849,523,857,517,877,512,887,508,903,512,912,512,925,509,941,506,957" href="#">
+			<area title="Abdullah Khalil Nasser Khalil &#13; عبدالله خليل ناصر خليل" alt="./branches/AbdullahKhalilNasserKhalil.png" shape="poly" coords="541,786,551,799,550,775,550,751,548,729,543,694,534,695,534,723,531,743,536,768" href="#">
+			<area title="Abdou Khalil Nasser Khalil &#13; عبده خليل ناصر خليل" alt="./branches/AbdouKhalilNasserKhalil.png" shape="poly" coords="550,805,551,771,551,751,561,734,568,701,582,699,578,712,569,746,569,760,568,786,557,813" href="#">
+				<area title="Khalil Abdou Khalil Nasser &#13; خليل عبده خليل ناصر" alt="./branches/KhalilAbdouKhalilNasser.png" shape="poly" coords="576,696,583,695,588,684,595,678,604,673,607,653,609,638,607,621,607,602,612,591,602,593,602,611,597,633,585,663,582,673,579,685" href="#">
+				<area title="Moeen Abdou Khalil Nasser &#13; معين عبده خليل ناصر" alt="./branches/MoeenAbdouKhalilNasser.png" shape="poly" coords="565,694,574,691,575,675,575,667,575,657,569,645,568,625,565,615,561,630,560,647,557,660,557,675,562,684" href="#">
+		<area title="Hanna Nasser Khalil Ibrahim &#13; حنا ناصر خليل ابراهيم" alt="./branches/HannaNasserKhalilIbrahim.png" shape="poly" coords="536,958,541,937,541,919,547,896,568,857,585,819,599,784,602,801,599,822,582,853,575,870,568,884,564,891,567,903,568,915,560,927,548,946" href="#">
+			<area title="Ameen Hanna Nasser Khalil &#13; أمين حنا ناصر خليل" alt="./branches/AmeenHannaNasserKhalil.png" shape="poly" coords="603,774,607,757,613,744,624,725,631,713,634,698,631,675,624,682,616,692,609,706,604,716,603,730,602,741" href="#">
+			<area title="Jameel Hanna Nasser Khalil &#13; جميل حنا ناصر خليل" alt="./branches/JameelHannaNasserKhalil.png" shape="poly" coords="604,771,610,758,616,744,624,729,634,718,649,715,648,726,644,737,637,747,623,760,613,770" href="#">
+	
+	<area title="Sleiman Khalil Ibrahim &#13; سليمان خليل ابراهيم" alt="./branches/SleimanKhalilIbrahim.png" shape="poly" coords="451,1061,442,1040,435,1014,437,988,432,943,440,889,454,859,472,830,464,815,444,818,430,830,418,844,409,863,397,898,392,925,390,948,395,985,397,1012,399,1030,413,1052,416,1062,428,1069" href="#">
+		<area title="Yousef Sleiman Khalil Ibrahim &#13; يوسف سليمان خليل ابراهيم" alt="./branches/YousefSleimanKhalilIbrahim.png" shape="poly" coords="464,811,439,811,447,794,450,771,453,746,450,724,446,704,464,701,472,705,478,746,475,764,474,788" href="#">
+			<area title="Niemeh Yousef Sleiman Khalil &#13; نعمه يوسف سليمان خليل" alt="./branches/NiemehYousefSleimanKhalil.png" shape="poly" coords="460,697,456,679,454,659,458,645,467,639,467,651,465,662,463,676,467,694" href="#">
+			<area title="Mineem Yousef Sleiman Khalil &#13; منعم يوسف سليمان خليل" alt="./branches/MineemYousefSleimanKhalil.png" shape="poly" coords="456,689,451,656,456,637,463,611,465,589,465,572,451,576,454,597,451,623,446,642,442,658,444,673,446,683,453,698" href="#">
+				<area title="Yousef Mineem Yousef Sleiman &#13; يوسف منعم يوسف سليمان" alt="./branches/YousefMineemYousefSleiman.png" shape="poly" coords="453,564,468,560,467,546,467,532,461,515,451,507,442,498,442,484,436,475,433,486,436,511,444,532,446,548" href="#">
+			<area title="Naoum Yousef Sleiman Khalil &#13; نعوم يوسف سليمان خليل" alt="./branches/NaoumYousefSleimanKhalil.png" shape="poly" coords="443,696,444,679,430,645,419,618,405,582,399,550,385,537,392,565,401,600,409,627,416,648,432,684" href="#">
+				<area title="George Naoum Yousef Sleiman &#13; جورج نعوم يوسف سليمان" alt="./branches/GeorgeNaoumYousefSleiman.png" shape="poly" coords="395,538,383,527,378,510,371,494,369,479,371,462,371,444,384,434,385,452,388,465,391,475,390,484,392,497,392,513" href="#">
+		<area title="Asaad Sleiman Khalil Ibrahim &#13; أسعد سليمان خليل ابراهيم" alt="./branches/AsaadSleimanKhalilIbrahim.png" shape="poly" coords="485,811,473,801,476,783,483,749,478,732,483,703,488,670,503,639,510,607,527,566,531,550,551,548,561,562,544,595,525,639,512,679,506,705,506,727,506,743,501,763,498,788" href="#">
+			<area title="Iskandar Asaad Sleiman Khalil &#13; اسكندر أسعد سليمان خليل" alt="./branches/IskandarAsaadSleimanKhalil.png" shape="poly" coords="480,425,486,423,491,427,492,436,496,443,500,454,506,459,511,464,515,473,520,479,524,489,530,494,537,502,539,509,541,526,541,533,530,522,513,505,508,490,508,478,498,470,492,455,487,441,482,431" href="#">	
+			<area title="Mikhaeel Asaad Sleiman Khalil &#13; مخائيل أسعد سليمان خليل" alt="./branches/MikhaeelAsaadSleimanKhalil.png" shape="poly" coords="562,544,565,526,571,513,585,502,621,491,645,477,647,489,631,495,612,502,603,507,589,519,581,531,572,540" href="#">
+				<area title="Keysar Mikhaeel Asaad Sleiman &#13; قيصر مخائيل أسعد سليمان" alt="./branches/KeysarMikhaeelAsaadSleiman.png" shape="poly" coords="647,484,659,483,671,477,686,468,700,462,713,463,721,463,731,468,746,472,721,473,707,476,700,483,690,489,680,491,666,490,652,490" href="#">
+				<area title="Asaad Mikhaeel Asaad Sleiman &#13; أسعد مخائيل أسعد سليمان" alt="./branches/AsaadMikhaeelAsaadSleiman.png" shape="poly" coords="649,482,661,479,678,465,693,451,707,438,718,428,731,423,737,411,721,414,704,425,689,435,676,451,665,463" href="#">
+				<area title="Wasef Mikhaeel Asaad Sleiman &#13; واصف مخائيل أسعد سليمان" alt="./branches/WasefMikhaeelAsaadSleiman.png" shape="poly" coords="647,479,661,461,668,451,678,440,685,425,694,403,707,382,689,390,679,406,665,420,656,434,652,449,651,463" href="#">
+			<area title="Salim Asaad Sleiman Khalil &#13; سليم أسعد سليمان خليل" alt="./branches/SalimAsaadSleimanKhalil.png" shape="poly" coords="546,534,541,500,537,485,530,468,531,449,522,427,516,399,515,384,515,370,526,361,526,388,533,404,538,423,544,439,548,454,554,468,553,485,551,502,551,515" href="#">
+				<area title="Naeem Salim Asaad Sleiman &#13; نعيم سليم أسعد سليمان" alt="./branches/NaeemSalimAsaadSleiman.png" shape="poly" coords="523,365,524,337,529,320,526,308,516,296,506,289,491,274,479,258,489,285,498,308,506,323,512,333" href="#">
+				<area title="Elia Salim Asaad Sleiman &#13; ايليا سليم أسعد سليمان" alt="./branches/EliaSalimAsaadSleiman.png" shape="poly" coords="526,358,524,347,527,334,530,323,533,313,527,301,529,292,531,279,534,271,534,261,536,240,538,251,543,261,543,270,544,279,546,291,547,301,538,317,537,327,531,341" href="#">
+				<area title="George Salim Asaad Sleiman &#13; جورج سليم أسعد سليمان" alt="./branches/GeorgeSalimAsaadSleiman.png" shape="poly" coords="519,361,513,344,502,327,487,320,472,319,460,319,453,327,470,329,479,333,487,336,501,344" href="#">
+			<area title="Sleiman Asaad Sleiman Khalil &#13; سليمان أسعد سليمان خليل" alt="./branches/SleimanAsaadSleimanKhalil.png" shape="poly" coords="560,540,568,510,578,467,590,434,606,419,583,415,576,434,569,451,562,468,557,485,555,507,551,523,550,541" href="#">
+				<area title="Tawfik Sleiman Asaad Sleiman &#13; توفيق سليمان أسعد سليمان" alt="./branches/TawfikSleimanAsaadSleiman.png" shape="poly" coords="589,413,592,400,596,386,600,365,606,347,610,336,612,312,610,282,610,268,602,292,593,315,588,337,590,350,588,372,588,392" href="#">
+				<area title="Elias Sleiman Asaad Sleiman &#13; الياس سليمان أسعد سليمان" alt="./branches/EliasSleimanAsaadSleiman.png" shape="poly" coords="593,413,602,392,607,374,613,351,621,340,630,324,633,334,634,344,633,354,623,364,616,376,604,406" href="#">
+				<area title="Raja Sleiman Asaad Sleiman &#13; رجا سليمان أسعد سليمان" alt="./branches/RajaSleimanAsaadSleiman.png" shape="poly" coords="599,411,610,399,621,381,634,362,642,355,658,348,659,358,645,367,638,378,626,388,620,399,610,410" href="#">
+			
+	<area title="Abdullah Khalil Ibrahim &#13; عبدالله خليل ابراهيم" alt="./branches/AbdullahKhalilIbrahim.png" shape="poly" coords="343,1096,352,1083,366,1075,391,1069,409,1066,402,1050,395,1035,388,1021,374,1013,360,1017,346,1026,336,1038,329,1054,329,1087" href="#">
+		<area title="Saleh Abdullah Khalil Ibrahim &#13; صالح عبدالله خليل ابراهيم" alt="./branches/SalehAbdullahKhalilIbrahim.png" shape="poly" coords="377,1005,367,1010,352,1014,343,1019,331,1031,326,1041,314,1044,284,1021,256,996,237,974,244,967,262,958,286,951,305,947,318,953,345,969,357,981,367,985,374,991" href="#">
+			<area title="Said Saleh Abdullah Khalil &#13; سعيد صالح عبدالله خليل" alt="./branches/SaidSalehAbdullahKhalil.png" shape="poly" coords="222,952,210,937,200,925,190,909,183,886,186,861,186,836,187,817,186,789,182,770,190,775,194,786,200,824,201,850,199,862,196,875,200,899,208,920" href="#">
+			<area title="Nassif Saleh Abdullah Khalil &#13; ناصيف صالح عبدالله خليل" alt="./branches/NassifSalehAbdullahKhalil.png" shape="poly" coords="287,923,290,898,296,867,294,850,301,828,308,814,312,808,319,797,322,783,332,788,321,832,307,870,303,881,298,895,296,912,296,925,293,932" href="#">
+			<area title="Nicola Saleh Abdullah Khalil &#13; نقولا صالح عبدالله خليل" alt="./branches/NicolaSalehAbdullahKhalil.png" shape="poly" coords="297,934,303,902,307,878,315,856,325,844,340,825,352,821,357,826,346,837,335,850,326,873,318,891,314,906,312,920,312,934,312,943" href="#">
+			<area title="Najib Saleh Abdullah Khalil &#13; نجيب صالح عبدالله خليل" alt="./branches/NajibSalehAbdullahKhalil.png" shape="poly" coords="249,924,253,891,255,870,248,851,249,837,260,816,262,780,262,745,265,698,267,681,279,666,277,694,276,714,274,747,273,775,270,799,273,826,273,843,273,861,270,878,269,888,269,906,267,914,265,930,251,933" href="#">
+				<area title="George Najib Saleh Abdullah &#13; جورج نجيب صالح عبدالله" alt="./branches/GeorgeNajibSalehAbdullah.png" shape="poly" coords="269,666,284,654,286,639,293,625,296,608,296,588,298,573,293,555,297,534,291,524,288,535,288,543,290,564,290,581,283,588,281,600,276,608,276,625,276,639" href="#">
+			<area title="Raji Saleh Abdullah Khalil &#13; راجي صالح عبدالله خليل" alt="./branches/RajiSalehAbdullahKhalil.png" shape="poly" coords="273,929,274,899,279,878,281,850,281,829,283,807,288,794,296,759,297,739,307,712,310,727,303,766,300,791,300,812,296,839,290,867,287,889,284,906,286,929" href="#">
+			<area title="Radi Saleh Abdullah Khalil &#13; راضي صالح عبدالله خليل" alt="./branches/RadiSalehAbdullahKhalil.png" shape="poly" coords="222,938,214,917,211,885,211,866,208,851,211,831,220,813,221,784,221,746,218,695,215,623,211,600,224,598,227,618,231,642,231,688,235,737,234,803,239,833,237,854,231,869,228,890,228,913,225,923" href="#">
+				<area title="Salem Radi Saleh Abdullah &#13; سالم راضي صالح عبدالله" alt="./branches/SalemRadiSalehAbdullah.png" shape="poly" coords="213,574,200,536,206,517,218,501,224,487,228,475,242,465,253,456,270,432,279,428,272,440,263,448,252,468,244,483,242,497,231,508,218,517,211,529,207,546" href="#">
+				<area title="Mikhaeel Radi Saleh Abdullah &#13; مخائيل راضي صالح عبدالله" alt="./branches/MikhaeelRadiSalehAbdullah.png" shape="poly" coords="201,552,194,521,194,493,203,463,210,435,217,409,224,393,229,381,232,368,217,383,211,397,203,416,190,423,182,442,186,456,192,476,187,501,192,535" href="#">
+				<area title="Maarouf Radi Saleh Abdullah &#13; معروف راضي صالح عبدالله" alt="./branches/MaaroufRadiSalehAbdullah.png" shape="poly" coords="203,572,189,559,178,552,168,557,158,563,145,569,127,569,126,557,135,548,142,538,161,538,172,539,182,541" href="#">
+				<area title="Simaan Radi Saleh Abdullah &#13; سمعان راضي صالح عبدالله" alt="./branches/SimaanRadiSalehAbdullah.png" shape="poly" coords="199,555,187,528,180,504,176,484,171,470,159,455,155,465,162,484,162,496,165,506,165,520,176,532,185,539" href="#">
+			<area title="Shibly Saleh Abdullah Khalil &#13; شبلي صالح عبدالله خليل" alt="./branches/ShiblySalehAbdullahKhalil.png" shape="poly" coords="225,958,211,941,197,928,187,907,179,889,166,878,155,864,145,847,141,814,144,795,135,795,131,813,133,830,134,847,140,862,147,880,158,900,169,914,189,939,208,952,213,960" href="#">
+				<area title="Saleh Shibly Saleh Abdullah &#13; صالح شبلي صالح عبدالله" alt="./branches/SalehShiblySalehAbdullah.png" shape="poly" coords="133,788,142,785,137,764,131,748,135,737,130,725,123,718,120,706,114,688,112,668,92,660,79,666,99,671,102,685,106,699,107,709,106,719,107,734,112,748,120,751,126,764" href="#">
+		<area title="Jeryes Abdullah Khalil Ibrahim &#13; جريس عبدالله خليل ابراهيم" alt="./branches/JeryesAbdullahKhalilIbrahim.png" shape="poly" coords="321,1078,304,1075,290,1061,272,1052,245,1035,211,1020,215,990,252,1009,279,1027,297,1040,318,1047,325,1052,325,1064" href="#">
+			<area title="Fadoul Jeryes Abdullah Khalil &#13; فضول جريس عبدالله خليل" alt="./branches/FadoulJeryesAbdullahKhalil.png" shape="poly" coords="201,998,182,994,169,987,154,976,144,975,119,972,99,987,79,996,88,997,107,1000,130,1001,149,1003,169,1001,183,1008,193,1007" href="#">
+			<area title="Fadeel Jeryes Abdullah Khalil &#13; فضيل جريس عبدالله خليل" alt="./branches/FadeelJeryesAbdullahKhalil.png" shape="poly" coords="207,998,208,990,197,984,182,976,162,956,145,948,127,945,106,949,93,956,113,962,130,965,151,973,162,975,175,983,186,990,196,993" href="#">
+
+
+<!-- Leaves section / circles -->
+
+	<!--Asaad Sleiman subsection -->
+		<!--Iskandar-->
+		<area title="Mundher Iskandar Asaad Sleiman &#13; منذر اسكندر أسعد سليمان" alt="./leaves/MunderIskandarAsaadSleiman.png" shape="circle" coords="465,436,15" href="#">
+		<!--Mikhaeel-->
+		<area title="Wadie Mikhaeel Asaad Sleiman &#13; وديع مخائيل أسعد سليمان" alt="./leaves/WadieMikhaeelAsaadSleiman.png" shape="circle" coords="633,520,16" href="#">
+			<area title="Michel Keysar Mikhaeel Asaad &#13; ميشيل قيصر مخائيل أسعد" alt="./leaves/MichelKeysarMikhaeelAsaad.png" shape="circle" coords="781,493,13" href="#">
+			<area title="Nayef Keysar Mikhaeel Asaad &#13; نايف قيصر مخائيل أسعد" alt="./leaves/NayefKeysarMikhaeelAsaad.png" shape="circle" coords="793,470,15" href="#">
+			<area title="Elias Keysar Mikhaeel Asaad &#13; الياس قيصر مخائيل أسعد" alt="./leaves/EliasKeysarMikhaeelAsaad.png" shape="circle" coords="758,461,14" href="#">
+			<area title="Sami Keysar Mikhaeel Asaad &#13; سامي قيصر مخائيل أسعد" alt="./leaves/SamiKeysarMikhaeelAsaad.png" shape="circle" coords="738,490,13" href="#">
+			<area title="Maurice Keysar Mikhaeel Asaad &#13; موريس قيصر مخائيل أسعد" alt="./leaves/MauriceKeysarMikhaeelAsaad.png" shape="circle" coords="760,484,13" href="#">
+			<area title="Anis Keysar Mikhaeel Asaad &#13; أنيس قيصر مخائيل أسعد" alt="./leaves/AnisKeysarMikhaeelAsaad.png" shape="circle" coords="717,492,14" href="#">
+			<area title="Albert Asaad Mikhaeel Asaad &#13; ألبير أسعد مخائيل أسعد" alt="./leaves/AlbertAsaadMikhaeelAsaad.png" shape="circle" coords="751,424,13" href="#">
+			<area title="Asad Wasef Mikhaeel Asaad &#13; أسد واصف مخائيل أسعد" alt="./leaves/AsadWasefMikhaeelAsaad.png" shape="circle" coords="710,397,14" href="#">
+		<!--Sleiman-->
+		<area title="Anton Sleiman Asaad Sleiman &#13; أنطون سليمان أسعد سليمان" alt="./leaves/AntonSleimanAsaadSleiman.png" shape="circle" coords="564,412,15" href="#">
+		<area title="Aziz Sleiman Asaad Sleiman &#13; عزيز سليمان أسعد سليمان" alt="./leaves/AzizSleimanAsaadSleiman.png" shape="circle" coords="557,436,12" href="#">
+		<area title="Jamal Sleiman Asaad Sleiman &#13; جمال سليمان أسعد سليمان" alt="./leaves/JamalSleimanAsaadSleiman.png" shape="circle" coords="569,391,15" href="#">
+			<area title="Sleiman Tawfik Sleiman Asaad &#13; سليمان توفيق سليمان أسعد" alt="./leaves/SleimanTawfikSleimanAsaad.png" shape="circle" coords="627,300,14" href="#">
+			<area title="Victor Tawfik Sleiman Asaad &#13; فيكتور توفيق سليمان أسعد" alt="./leaves/VictorTawfikSleimanAsaad.png" shape="circle" coords="604,230,16" href="#">
+			<area title="Jeryes Tawfik Sleiman Asaad &#13; جريس توفيق سليمان أسعد" alt="./leaves/JeryesTawfikSleimanAsaad.png" shape="circle" coords="640,279,14" href="#">
+			<area title="Farid Tawfik Sleiman Asaad &#13; فريد توفيق سليمان أسعد" alt="./leaves/FaridTawfikSleimanAsaad.png" shape="circle" coords="635,238,17" href="#">
+			<area title="Nabeeh Tawfik Sleiman Asaad &#13; نبيه توفيق سليمان أسعد" alt="./leaves/NabeehTawfikSleimanAsaad.png" shape="circle" coords="640,256,14" href="#">
+			<area title="Wasfi Elias Sleiman Asaad &#13; وصفي الياس سليمان أسعد" alt="./leaves/WasfiEliasSleimanAsaad.png" shape="circle" coords="651,324,14" href="#">
+			<area title="Marwan Raja Sleiman Asaad &#13; مروان رجا سليمان أسعد" alt="./leaves/MarwanRajaSleimanAsaad.png" shape="circle" coords="659,379,15" href="#">
+			<area title="Munzer Raja Sleiman Asaad &#13; منذر رجا سليمان أسعد" alt="./leaves/MunzerRajaSleimanAsaad.png" shape="circle" coords="678,366,16" href="#">
+		<!--Salim-->
+		<area title="Rashid Salim Asaad Sleiman &#13; رشيد سليم أسعد سليمان" alt="./leaves/RashidSalimAsaadSleiman.png" shape="circle" coords="554,370,14" href="#">
+			<area title="Salim Naeem Salim Asaad &#13; سليم نعيم سليم أسعد" alt="./leaves/SalimNaeemSalimAsaad.png" shape="circle" coords="505,273,13" href="#">
+			<area title="Suheil Naeem Salim Asaad &#13; سهيل نعيم سليم أسعد" alt="./leaves/SuheilNaeemSalimAsaad.png" shape="circle" coords="496,242,14" href="#">
+			<area title="Samir Naeem Salim Asaad &#13; سمير نعيم سليم أسعد" alt="./leaves/SamirNaeemSalimAsaad.png" shape="circle" coords="467,282,13" href="#">
+			<area title="Nabil Elia Salim Asaad &#13; نبيل ايليا سليم أسعد" alt="./leaves/NabilEliaSalimAsaad.png" shape="circle" coords="560,202,14" href="#">
+			<area title="Ramzi Elia Salim Asaad &#13; رمزي ايليا سليم أسعد" alt="./leaves/RamziEliaSalimAsaad.png" shape="circle" coords="553,231,12" href="#">
+			<area title="Mounir Elia Salim Asaad &#13; منير ايليا سليم أسعد" alt="./leaves/MounirEliaSalimAsaad.png" shape="circle" coords="520,241,13" href="#">
+			<area title="Adel Elia Salim Asaad &#13; عادل ايليا سليم أسعد" alt="./leaves/AdelEliaSalimAsaad.png" shape="circle" coords="520,210,14" href="#">
+			<area title="Victor George Salim Asaad &#13; فيكتور جورج سليم أسعد" alt="./leaves/VictorGeorgeSalimAsaad.png" shape="circle" coords="458,346,14" href="#">
+			<area title="Fayez George Salim Asaad &#13; فايز جورج سليم أسعد" alt="./leaves/FayezGeorgeSalimAsaad.png" shape="circle" coords="432,339,13" href="#">
+		
+	<!--Yousef Sleiman subsection -->
+		<area title="Nieman Mineem Yousef Sleiman &#13; نعمان منعم يوسف سليمان" alt="./leaves/NiemanMineemYousefSleiman.png" shape="circle" coords="439,609,15" href="#">
+		<area title="Jean Mineem Yousef Sleiman &#13; جان منعم يوسف سليمان" alt="./leaves/JeanMineemYousefSleiman.png" shape="circle" coords="475,609,13" href="#">
+
+	<!--Khalil Nasser subsection -->
+		<area title="Abdou Khalil Abdou Khalil &#13; عبده خليل عبده خليل" alt="./leaves/AbdouKhalilAbdouKhalil.png" shape="circle" coords="590,585,15" href="#">
+		<area title="Antoine Khalil Abdou Khalil &#13; أنطوان خليل عبده خليل" alt="./leaves/AntoineKhalilAbdouKhalil.png" shape="circle" coords="621,613,14" href="#">
+		<area title="Nasser Khalil Abdou Khalil &#13; ناصر خليل عبده خليل" alt="./leaves/NasserKhalilAbdouKhalil.png" shape="circle" coords="633,591,14" href="#">
+		<area title="Majed Moeen Abdou Khalil &#13; ماجد معين عبده خليل" alt="./leaves/MajedMoeenAbdouKhalil.png" shape="circle" coords="582,617,13" href="#">
+		
+	<!--Hanna Nasser subsection -->
+		<area title="Hanna Ameen Hanna Nasser &#13; حنا أمين حنا ناصر" alt="./leaves/HannaAmeenHannaNasser.png" shape="circle" coords="647,669,13" href="#">
+		<area title="Lotof Ameen Hanna Nasser &#13; لطف أمين حنا ناصر" alt="./leaves/LotofAmeenHannaNasser.png" shape="circle" coords="620,665,15" href="#">
+		<area title="Raja Jameel Hanna Nasser &#13; رجا جميل حنا ناصر" alt="./leaves/RajaJameelHannaNasser.png" shape="circle" coords="666,718,13" href="#">
+		
+	<!--Yousef Moussa subsection -->
+		<area title="Aziz Tawfik Moussa Yousef &#13; عزيز توفيق موسى يوسف" alt="./leaves/AzizTawfikMoussaYousef.png" shape="circle" coords="905,904,15" href="#">
+		<area title="Yousef Tawfik Moussa Yousef &#13; يوسف توفيق موسى يوسف" alt="./leaves/YousefTawfikMoussaYousef.png" shape="circle" coords="874,930,14" href="#">
+		<area title="Hanna Tawfik Moussa Yousef &#13; حنا توفيق موسى يوسف" alt="./leaves/HannaTawfikMoussaYousef.png" shape="circle" coords="880,887,15" href="#">
+		<area title="Shafik Elias Moussa Yousef &#13; شفيق الياس موسى يوسف" alt="./leaves/ShafikEliasMoussaYousef.png" shape="circle" coords="925,801,15" href="#">
+	
+	<!--Dahoud Moussa subsection -->
+		<!--Sleiman-->
+		<area title="Adeeb Nimer Elias Sleiman &#13; أديب نمر الياس سليمان" alt="./leaves/AdeebNimerEliasSleiman.png" shape="circle" coords="869,550,15" href="#">
+		<area title="Elias Nimer Elias Sleiman &#13; الياس نمر الياس سليمان" alt="./leaves/EliasNimerEliasSleiman.png" shape="circle" coords="869,588,16" href="#">
+		<area title="Abdallah Dahoud Sleiman Dahoud &#13; عبدالله داود سليمان داود" alt="./leaves/AbdallahDahoudSleimanDahoud.png" shape="circle" coords="876,683,16" href="#">
+		<area title="Sleiman Dahoud Sleiman Dahoud &#13; سليمان داود سليمان داود" alt="./leaves/SleimanDahoudSleimanDahoud.png" shape="circle" coords="894,662,17" href="#">
+		<area title="Sami Dahoud Sleiman Dahoud &#13; سامي داود سليمان داود" alt="./leaves/SamiDahoudSleimanDahoud.png" shape="circle" coords="913,643,14" href="#">
+		<!--Yousef-->
+		<area title="Yousef Salim Yousef Dahoud &#13; يوسف سليم يوسف داود" alt="./leaves/YousefSalimYousefDahoud.png" shape="circle" coords="781,739,16" href="#">
+		<!--Ibrahim-->
+		<area title="Jameel Jeryes Ibrahim Dahoud &#13; جميل جريس ابراهيم داود" alt="./leaves/JameelJeryesIbrahimDahoud.png" shape="circle" coords="751,695,14" href="#">
+		<area title="Afif Jeryes Ibrahim Dahoud &#13; عفيف جريس ابراهيم داود" alt="./leaves/AfifJeryesIbrahimDahoud.png" shape="circle" coords="753,672,14" href="#">
+		<!--Iseed-->
+		<area title="Iseed Jarmas Iseed Dahoud &#13; اسعيد جرمس اسعيد داود" alt="./leaves/IseedJarmasIseedDahoud.png" shape="circle" coords="760,550,17" href="#">
+		<area title="Bishara Jarmas Iseed Dahoud &#13; بشارة جرمس اسعيد داود" alt="./leaves/BisharaJarmasIseedDahoud.png" shape="circle" coords="755,589,14" href="#">
+		<area title="Abdou Jarmas Iseed Dahoud &#13; عبده جرمس اسعيد داود" alt="./leaves/AbdouJarmasIseedDahoud.png" shape="circle" coords="727,591,14" href="#">
+		
+	<!--Jeryes Abdullah subsection -->
+		<area title="Jeryes Fadeel Jeryes Abdullah &#13; جريس فضيل جريس عبدالله" alt="./leaves/JeryesFadeelJeryesAbdullah.png" shape="circle" coords="46,952,13" href="#">
+		<area title="Tawfik Fadeel Jeryes Abdullah &#13; توفيق فضيل جريس عبدالله" alt="./leaves/TawfikFadeelJeryesAbdullah.png" shape="circle" coords="62,968,14" href="#">
+		<area title="Diab Fadoul Jeryes Abdullah &#13; دياب فضول جريس عبدالله" alt="./leaves/DiabFadoulJeryesAbdullah.png" shape="circle" coords="47,1039,16" href="#">
+		<area title="Afif Fadoul Jeryes Abdullah &#13; عفيف فضول جريس عبدالله" alt="./leaves/AfifFadoulJeryesAbdullah.png" shape="circle" coords="31,1017,14" href="#">
+		<area title="Fawzi Fadoul Jeryes Abdullah &#13; فوزي فضول جريس عبدالله" alt="./leaves/FawziFadoulJeryesAbdullah.png" shape="circle" coords="61,1009,15" href="#">
+	
+	<!--Saleh Abdullah subsection -->
+		<!--Said-->
+		<area title="Joul Said Saleh Abdullah &#13; جول سعيد صالح عبدالله" alt="./leaves/JoulSaidSalehAbdullah.png" shape="circle" coords="154,744,14" href="#">
+		<area title="Elias Said Saleh Abdullah &#13; الياس سعيد صالح عبدالله" alt="./leaves/EliasSaidSalehAbdullah.png" shape="circle" coords="194,727,15" href="#">
+		<area title="Emil Said Saleh Abdullah &#13; اميل سعيد صالح عبدالله" alt="./leaves/EmilSaidSalehAbdullah.png" shape="circle" coords="155,714,17" href="#">
+		<!--Nassif-->
+		<area title="Zidan Nassif Saleh Abdullah &#13; زيدان ناصيف صالح عبدالله" alt="./leaves/ZidanNassifSalehAbdullah.png" shape="circle" coords="356,748,18" href="#">
+		<area title="Sami Nassif Saleh Abdullah &#13; سامي ناصيف صالح عبدالله" alt="./leaves/SamiNassifSalehAbdullah.png" shape="circle" coords="345,772,15" href="#">
+		<!--Nicola-->
+		<area title="Arab Nicola Saleh Abdullah &#13; عرب نقولا صالح عبدالله" alt="./leaves/ArabNicolaSalehAbdullah.png" shape="circle" coords="380,832,16" href="#">
+		<!--Najib-->
+			<area title="Najib George Najib Saleh &#13; نجيب جورج نجيب صالح" alt="./leaves/NajibGeorgeNajibSaleh.png" shape="circle" coords="322,514,19" href="#">
+			<area title="Nabil George Najib Saleh &#13; نبيل جورج نجيب صالح" alt="./leaves/NabilGeorgeNajibSaleh.png" shape="circle" coords="312,542,15" href="#">
+		<!--Raji-->
+		<area title="Gabi Raji Saleh Abdullah &#13; جابي راجي صالح عبدالله" alt="./leaves/GabiRajiSalehAbdullah.png" shape="circle" coords="342,684,16" href="#">
+		<area title="Fouad Raji Saleh Abdullah &#13; فؤاد راجي صالح عبدالله" alt="./leaves/FouadRajiSalehAbdullah.png" shape="circle" coords="324,704,14" href="#">
+		<!--Radi-->
+		<area title="Abdallah Radi Saleh Abdullah &#13; عبدالله راضي صالح عبدالله" alt="./leaves/AbdallahRadiSalehAbdullah.png" shape="circle" coords="259,645,15" href="#">
+		<area title="Aziz Radi Saleh Abdullah &#13; عزيز راضي صالح عبدالله" alt="./leaves/AzizRadiSalehAbdullah.png" shape="circle" coords="253,618,17" href="#">
+			<area title="Ruda Salem Radi Saleh &#13; رضى سالم راضي صالح" alt="./leaves/RudaSalemRadiSaleh.png" shape="circle" coords="272,466,15" href="#">
+			<area title="Fawzi Salem Radi Saleh &#13; فوزي سالم راضي صالح" alt="./leaves/FawziSalemRadiSaleh.png" shape="circle" coords="310,429,15" href="#">
+			<area title="Fahed Mikhaeel Radi Saleh &#13; فهد مخائيل راضي صالح" alt="./leaves/FahedMikhaeelRadiSaleh.png" shape="circle" coords="244,395,16" href="#">
+			<area title="Ghassan Mikhaeel Radi Saleh &#13; غسان مخائيل راضي صالح" alt="./leaves/GhassanMikhaeelRadiSaleh.png" shape="circle" coords="201,393,15" href="#">
+			<area title="Hani Maarouf Radi Saleh &#13; هاني معروف راضي صالح" alt="./leaves/HaniMaaroufRadiSaleh.png" shape="circle" coords="138,600,15" href="#">
+			<area title="Raji Maarouf Radi Saleh &#13; راجي معروف راضي صالح" alt="./leaves/RajiMaaroufRadiSaleh.png" shape="circle" coords="117,620,16" href="#">
+			<area title="Suheil Simaan Radi Saleh &#13; سهيل سمعان راضي صالح" alt="./leaves/SuheilSimaanRadiSaleh.png" shape="circle" coords="149,482,17" href="#">
+		<!--Shibly-->
+		<area title="Bassem Shibly Saleh Abdullah &#13; باسم شبلي صالح عبدالله" alt="./leaves/BassemShiblySalehAbdullah.png" shape="circle" coords="159,809,14" href="#">
+		<area title="Mazzawi Shibly Saleh Abdullah &#13; مزاوي شبلي صالح عبدالله" alt="./leaves/MazzawiShiblySalehAbdullah.png" shape="circle" coords="131,895,16" href="#">
+			<area title="Hanna Saleh Shibly Saleh &#13; حنا صالح شبلي صالح" alt="./leaves/HannaSalehShiblySaleh.png" shape="circle" coords="85,701,15" href="#">
+			<area title="Hani Saleh Shibly Saleh &#13; هاني صالح شبلي صالح" alt="./leaves/HaniSalehShiblySaleh.png" shape="circle" coords="64,686,16" href="#">
+	
+	
+</map>
+
+
+<!-- modal -->
+<div id="subTree" class="modal"> 
+	<div class="modal-content">
+		<h3 id="modalTitle"></h3>
+		<img id="modalImg" src="#"/>
+	</div>
+</div>
+
+<div style="background-color:#333333;color:white; font-family: cursive; padding: 8px">
+for feedback, suggestions, corrections or additions , please contact me: 
+<a style="color:orange" href="mailto:iskmz@hotmail.com"><i>iskmz@hotmail.com</i></a>
+&nbsp;<a style="color:white;text-decoration:none" title="copy mail to clipboard" alt="copy-mail" href="" onclick="copyMail();return false">&#10064;</a>
+</div>
+
+<div style="background-color:#000000;color:white; font-family: cursive; padding: 4px">
+programming by: <i style="color:orange"><b>Iskandar Mundher Iskandar Mazzawi</i></b><br/>
+<b style="font-family: monospace"> started: April, 2023 ; last update: <i style="color:yellow">2023.04.14_16:14</i></b>
+</div>
+
+
+<!-------------------------------------------------------------------------------->
+
+<script type="text/javascript">
+
+var modal = document.getElementById("subTree");
+var map = document.getElementById("treeMap");
+
+// event listener to map-area click --> load correct image & open the modal to show it // 
+map.addEventListener("click",handleMapClick,false); 
+function handleMapClick(e)
+{
+	e.preventDefault();
+	if (e.target != e.currentTarget) 
+	{
+		if(e.target.getAttribute('href')!=="#") return; // do nothing when non-links are clicked // for e.g. "cut-branches" // 
+		document.getElementById("modalTitle").innerHTML = e.target.getAttribute('title');
+		document.getElementById("modalImg").setAttribute('src',e.target.getAttribute('alt'));
+	}
+	e.stopPropagation();
+	modal.style.display = "block";
+}
+
+
+// click outside modal-content --> close it //
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// toggle all highlights button event-listener
+var btnToggle = document.getElementById("btnAllHighlights");
+btnToggle.addEventListener("click",handleToggleBtn,false);
+var show=false; // hidden by default
+function handleToggleBtn(e)
+{
+	if(show)
+	{
+		$(function () {
+			$('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: false });
+		});
+		btnToggle.setAttribute('value',"Show All Highlights");
+	}
+	else
+	{
+		$(function () {
+			$('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: true });
+		});
+		btnToggle.setAttribute('value',"Hide All Highlights");
+	}
+	show=!show;
+}
+
+// copy mail to clipboard
+function copyMail() {
+	navigator.clipboard.writeText('iskmz@hotmail.com');
+	// window.alert("copied 'iskmz@hotmail.com' to clipboard");
+	return false;
+}
+
+
+
+/*
+idea for future development:- 
+in order to continue adding members to advanced branches & leaves , 
+could replace .png <img> inside <modal-content>
+with a "Bootstrap Carousel" [https://www.w3schools.com/bootstrap/bootstrap_carousel.asp] .
+in "alt" property , instead of .png , remove extension to get into folder which contains
+all the images to build the carousel from , and a text file which contains the img-names list to load into carousel.
+could start all the carousel element building process using j.s. dynamically , when NOT detecting .png in "alt"
+[i.e. remove <img> tag inside <modal-content> and replace it with a carousel "div" and build everything inside from the "text" file
+otherwise, if .png is detected inside "alt", then should continue loading the single img as is done now
+*/
+
+</script>
+
+</body>
+</html>

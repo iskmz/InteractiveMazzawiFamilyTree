@@ -1,0 +1,1362 @@
+10:04 2023-04-14
+
+Ibrahim Mazzawi
++Ms. Unknown
+ ├── Khalil Mazzawi Ibrahim
+ │ +Hanneh Zahlawy
+ │  ├── Nasser Mazzawi
+ │  │ +Saadah Ayoub Zaher
+ │  │  ├── Moussa Mazzawi
+ │  │  ├── Khalil Mazzawi
+ │  │  │ +Afifeh Touma
+ │  │  │  ├── Mariam Mazzawi
+ │  │  │  ├── Abdullah Mazzawi
+ │  │  │  │ +Martha Muhanna
+ │  │  │  │  └── Anisseh Mazzawi
+ │  │  │  ├── Abdou Mazzawi
+ │  │  │  │ +Martha Muhanna ( El Makdah)
+ │  │  │  │  ├── Khalil Mazzawi
+ │  │  │  │  │ +Mounira Mazzawi Salim
+ │  │  │  │  │  ├── Nawal Mazzawi Khalil I
+ │  │  │  │  │  │ +Elias Shahin
+ │  │  │  │  │  │  ├── Rawia Shahin
+ │  │  │  │  │  │  ├── Sanaa Shahin
+ │  │  │  │  │  │  ├── Ramy Shahin
+ │  │  │  │  │  │  └── Sarry Shahin
+ │  │  │  │  │  ├── Abdou Mazzawi
+ │  │  │  │  │  │ +Nadia Mazzawi
+ │  │  │  │  │  │  ├── Khalil Mazzawi
+ │  │  │  │  │  │  │ +Suha Srouji Yousef
+ │  │  │  │  │  │  │  ├── Nada Mazzawi
+ │  │  │  │  │  │  │  └── Abdou Mazzawi
+ │  │  │  │  │  │  ├── Nassim Mazzawi
+ │  │  │  │  │  │  │ +Sisil Simaan Louis
+ │  │  │  │  │  │  │  ├── Leen Mazzawi
+ │  │  │  │  │  │  │  ├── Sama Mazzawi
+ │  │  │  │  │  │  │  └── Nour Mazzawi
+ │  │  │  │  │  │  └── Shereen Mazzawi
+ │  │  │  │  │  │   +Samir Srouji Yousef
+ │  │  │  │  │  │    ├── Layal Srouji
+ │  │  │  │  │  │    ├── Tamer Srouji
+ │  │  │  │  │  │    └── Jude Srouji
+ │  │  │  │  │  ├── Amal Mazzawi Khalil II
+ │  │  │  │  │  │ +Atef Saed Issa
+ │  │  │  │  │  │  ├── Manar Saed Atef
+ │  │  │  │  │  │  ├── Issa Saed Atef
+ │  │  │  │  │  │  ├── Hazar Saed Atef
+ │  │  │  │  │  │  └── Ehab Saed Atef
+ │  │  │  │  │  ├── Antoine Mazzawi I
+ │  │  │  │  │  │ +Siham Yousef Banna I
+ │  │  │  │  │  │  ├── Luna Mazzawi I
+ │  │  │  │  │  │  │ +Kameel Khoury Nicola
+ │  │  │  │  │  │  │  └── May Khoury Kameel
+ │  │  │  │  │  │  ├── Lara Mazzawi II
+ │  │  │  │  │  │  ├── Hadi Mazzawi I
+ │  │  │  │  │  │  └── Joe Mazzawi I
+ │  │  │  │  │  ├── Antoinette Mazzawi
+ │  │  │  │  │  │ +Victor Irsheid
+ │  │  │  │  │  │  ├── Ghada Irsheid Victor
+ │  │  │  │  │  │  ├── Jules Irsheid Victor
+ │  │  │  │  │  │  ├── Rania Irsheid Victor
+ │  │  │  │  │  │  └── Areen Irsheid Victor
+ │  │  │  │  │  └── Nasser Mazzawi III
+ │  │  │  │  │   +Nadera Arab Mazzawi
+ │  │  │  │  │    ├── Nisreen Mazzawi
+ │  │  │  │  │    └── Nirmeen Mazzawi
+ │  │  │  │  ├── Huda Mazzawi
+ │  │  │  │  ├── Moeen Mazzawi
+ │  │  │  │  │ +Betty Khoury
+ │  │  │  │  │  ├── Majed Mazzawi
+ │  │  │  │  │  │ +Lilian Khoury Elie
+ │  │  │  │  │  │  ├── Moeen Mazzawi
+ │  │  │  │  │  │  ├── Marwan Mazzawi
+ │  │  │  │  │  │  └── Mario Mazzawi
+ │  │  │  │  │  ├── Muna Mazzawi
+ │  │  │  │  │  └── Mounir Mazzawi
+ │  │  │  │  │   +Julianne Arthur Newman
+ │  │  │  │  │    ├── Martha Mazzawi
+ │  │  │  │  │    ├── Malek Mazzawi
+ │  │  │  │  │    └── Max (Mounir ) Mazzawi
+ │  │  │  │  ├── Julliette Mazzawi Abdou
+ │  │  │  │  └── Emil Mazzawi
+ │  │  │  └── Farideh Mazzawi
+ │  │  ├── Hanneh Mazzawi
+ │  │  ├── Hanna Mazzawi
+ │  │  │ +Latifeh Mazzawi Assad
+ │  │  │  ├── Amineh Mazzawi
+ │  │  │  ├── Ameen Mazzawi
+ │  │  │  │ +Jameeleh Mazzawi
+ │  │  │  │  ├── Nazirah Mazzawi
+ │  │  │  │  ├── Hanna Mazzawi
+ │  │  │  │  │ +Samira Ashkar Radwan
+ │  │  │  │  │  ├── Ameen Mazzawi
+ │  │  │  │  │  │ +Reem Abu Hannah Emil
+ │  │  │  │  │  │  ├── Ola Mazzawi
+ │  │  │  │  │  │  ├── Dima Mazzawi
+ │  │  │  │  │  │  ├── Hanna Mazzawi
+ │  │  │  │  │  │  └── Alaa Mazzawi
+ │  │  │  │  │  ├── Edward Mazzawi
+ │  │  │  │  │  │ +Ketty Totary Zakariya
+ │  │  │  │  │  │  ├── Husam Mazzawi
+ │  │  │  │  │  │  ├── Basel Mazzawi
+ │  │  │  │  │  │  └── Feras Mazzawi
+ │  │  │  │  │  ├── Ramzi Mazzawi
+ │  │  │  │  │  │ +Hanan Tabar Saied
+ │  │  │  │  │  │  ├── Munder Mazzawi
+ │  │  │  │  │  │  ├── Elias Mazzawi
+ │  │  │  │  │  │  └── Jowel Mazzawi
+ │  │  │  │  │  ├── Shadia Mazzawi
+ │  │  │  │  │  ├── Mazen Mazzawi
+ │  │  │  │  │  │ +Sanaa Ashkar Bassem
+ │  │  │  │  │  │  ├── George Mazzawi
+ │  │  │  │  │  │  ├── Estefan Mazzawi
+ │  │  │  │  │  │  ├── Jean Mazzawi
+ │  │  │  │  │  │  └── Mariam Mazzawi
+ │  │  │  │  │  └── Ausama Mazzawi
+ │  │  │  │  │   +Denise Helou Tony
+ │  │  │  │  │    ├── Raghad Mazzawi
+ │  │  │  │  │    ├── Noor Mazzawi
+ │  │  │  │  │    └── Ward Mazzawi
+ │  │  │  │  ├── Afaf Mazzawi
+ │  │  │  │  └── Lotof Mazzawi
+ │  │  │  │   +Ms. Unknown
+ │  │  │  │    ├── Yuseph Mazzawi
+ │  │  │  │    ├── Jameleh Mazzawi
+ │  │  │  │    ├── Josephine Mazzawi
+ │  │  │  │    ├── Jumana Mazzawi
+ │  │  │  │    └── Janan Mazzawi
+ │  │  │  ├── Jameel Mazzawi
+ │  │  │  │ +Muntaha Ghanim
+ │  │  │  │  ├── Latifeh Mazzawi
+ │  │  │  │  └── Raja Mazzawi
+ │  │  │  │   +Blanche Totari Elias
+ │  │  │  │    ├── Jameel Mazzawi
+ │  │  │  │    │ +Rula Nasr Josef
+ │  │  │  │    │  ├── Sama Mazzawi
+ │  │  │  │    │  └── Juna Mazzawi
+ │  │  │  │    ├── Shadi Mazzawi
+ │  │  │  │    │ +Lana Copty Nabih
+ │  │  │  │    │  ├── Nadeem Mazzawi
+ │  │  │  │    │  └── Fares Mazzawi
+ │  │  │  │    ├── Nibal Mazzawi
+ │  │  │  │    └── Nabeel Mazzawi
+ │  │  │  │     +Rawan Kahaz Raja
+ │  │  │  │      └── Yareen Mazzawi
+ │  │  │  ├── Jamileh Mazzawi
+ │  │  │  └── Saleemeh Mazzawi
+ │  │  └── Warde Mazzawi Nasser
+ │  ├── Sleiman Mazzawi
+ │  │ +Mariam Srouji Hanna
+ │  │  ├── Asaad Mazzawi
+ │  │  │ +1)ghantuseh Zaher 2)sarah Abu Aun
+ │  │  │  ├── Mikhaeel Mazzawi
+ │  │  │  │ +1)hajaleh Mazzawi Saleh 2)fairuz Farsun Hanna
+ │  │  │  │  ├── Nayfeh Mazzawi
+ │  │  │  │  ├── Keysar Mazzawi
+ │  │  │  │  │ +Naheel Zaher Assad
+ │  │  │  │  │  ├── Michel Mazzawi
+ │  │  │  │  │  │ +Nadia Banna Hanna
+ │  │  │  │  │  │  ├── Nahla Mazzawi
+ │  │  │  │  │  │  ├── Cezar Mazzawi
+ │  │  │  │  │  │  │ +1)rando Abayah Victor 2)---------Farah
+ │  │  │  │  │  │  │  ├── Nadia Mazzawi
+ │  │  │  │  │  │  │  ├── Niveen Mazzawi
+ │  │  │  │  │  │  │  ├── Mary Mazzawi
+ │  │  │  │  │  │  │  └── Michel Mazzawi
+ │  │  │  │  │  │  ├── Zuher Mazzawi
+ │  │  │  │  │  │  │ +Amal Mazzawi Mussa
+ │  │  │  │  │  │  │  ├── Wael Mazzawi
+ │  │  │  │  │  │  │  └── Majd Mazzawi
+ │  │  │  │  │  │  ├── Sawsan Mazzawi
+ │  │  │  │  │  │  └── Suheil Mazzawi
+ │  │  │  │  │  ├── Nayef Mazzawi
+ │  │  │  │  │  │ +Alice Abu Nassar Mikhael
+ │  │  │  │  │  │  ├── Samia Mazzawi
+ │  │  │  │  │  │  ├── Suheila Mazzawi
+ │  │  │  │  │  │  ├── Maha Mazzawi
+ │  │  │  │  │  │  ├── Fouad Mazzawi
+ │  │  │  │  │  │  │ +Shiraz Mazzawi
+ │  │  │  │  │  │  │  ├── Nayef Mazzawi
+ │  │  │  │  │  │  │  └── Sami Mazzawi
+ │  │  │  │  │  │  ├── Mouna Mazzawi
+ │  │  │  │  │  │  └── Victor Mazzawi
+ │  │  │  │  │  ├── Elias Mazzawi
+ │  │  │  │  │  │ +Jihan Sruji Najib
+ │  │  │  │  │  │  ├── Andre Mazzawi
+ │  │  │  │  │  │  ├── Kameel Mazzawi
+ │  │  │  │  │  │  ├── Gaby Mazzawi
+ │  │  │  │  │  │  └── Amal Mazzawi
+ │  │  │  │  │  ├── Rachel Mazzawi
+ │  │  │  │  │  ├── Sami Mazzawi
+ │  │  │  │  │  │ +Jannette Karram Jamil
+ │  │  │  │  │  │  ├── Manal Mazzawi
+ │  │  │  │  │  │  ├── Shiraz Mazzawi
+ │  │  │  │  │  │  └── Jorjina Mazzawi
+ │  │  │  │  │  ├── Maurice Mazzawi
+ │  │  │  │  │  │ +Jannette Mazzawi Nimer
+ │  │  │  │  │  │  ├── Wafaa Mazzawi
+ │  │  │  │  │  │  ├── Elias Mazzawi
+ │  │  │  │  │  │  │ +Katy Marjieh Sami
+ │  │  │  │  │  │  │  ├── Maurice Mazzawi
+ │  │  │  │  │  │  │  ├── Narmin Mazzawi
+ │  │  │  │  │  │  │  └── Nasim Mazzawi
+ │  │  │  │  │  │  ├── Tony Mazzawi
+ │  │  │  │  │  │  │ +Ghayda Warwar
+ │  │  │  │  │  │  │  ├── Jannet Mazzawi
+ │  │  │  │  │  │  │  └── Jowel Mazzawi
+ │  │  │  │  │  │  └── Christeen Mazzawi
+ │  │  │  │  │  ├── Anis Mazzawi
+ │  │  │  │  │  │ +Suheila Bisharat Khalil
+ │  │  │  │  │  │  ├── Marwan Mazzawi
+ │  │  │  │  │  │  │ +Mona Deeb Michel
+ │  │  │  │  │  │  │  ├── Anis Mazzawi
+ │  │  │  │  │  │  │  ├── June Mazzawi
+ │  │  │  │  │  │  │  └── Shadan Mazzawi
+ │  │  │  │  │  │  ├── Rev. Munir Mazzawi
+ │  │  │  │  │  │  │ +Marina Francis Yacoub
+ │  │  │  │  │  │  │  ├── Sharbel Mazzawi
+ │  │  │  │  │  │  │  ├── Fadi Mazzawi
+ │  │  │  │  │  │  │  └── Elyanus Mazzawi
+ │  │  │  │  │  │  ├── Reem Mazzawi
+ │  │  │  │  │  │  ├── Ranaa Mazzawi
+ │  │  │  │  │  │  ├── Ramiz Mazzawi
+ │  │  │  │  │  │  └── Qeysar Mazzawi
+ │  │  │  │  │  └── Afaf Mazzawi
+ │  │  │  │  ├── Asaad Mazzawi
+ │  │  │  │  │ +Samira Khalil Abbud
+ │  │  │  │  │  ├── Linda Mazzawi
+ │  │  │  │  │  ├── Yousef Mazzawi
+ │  │  │  │  │  ├── Berta(Bernadette) Mazzawi
+ │  │  │  │  │  └── Albert Mazzawi
+ │  │  │  │  │   +Suheila Damouni Salim
+ │  │  │  │  │    ├── Maysaa Mazzawi
+ │  │  │  │  │    ├── Asaad Mazzawi
+ │  │  │  │  │    │ +Rula Tabba Metri
+ │  │  │  │  │    │  └── Nicole Mazzawi
+ │  │  │  │  │    ├── Joseph Mazzawi
+ │  │  │  │  │    │ +Rima Noufi Sameeh
+ │  │  │  │  │    │  ├── Maria Mazzawi
+ │  │  │  │  │    │  ├── Maya Mazzawi
+ │  │  │  │  │    │  └── Tamar Mazzawi
+ │  │  │  │  │    └── Mulham Mazzawi
+ │  │  │  │  │     +Shereen Khoury Ibrahim
+ │  │  │  │  │      ├── Basel Mazzawi
+ │  │  │  │  │      └── Tamer Mazzawi
+ │  │  │  │  ├── Najdiyeh Mazzawi
+ │  │  │  │  ├── Wasef Mazzawi
+ │  │  │  │  │ +Basmeh Mazzawi Shibly
+ │  │  │  │  │  ├── Hajaleh Mazzawi
+ │  │  │  │  │  ├── Aydah Mazzawi
+ │  │  │  │  │  ├── Nadia Mazzawi
+ │  │  │  │  │  ├── Asad Mazzawi
+ │  │  │  │  │  │ +Silvia Rashed Farah
+ │  │  │  │  │  │  ├── Areen Mazzawi
+ │  │  │  │  │  │  └── Wasef Mazzawi
+ │  │  │  │  │  ├── Layla Mazzawi
+ │  │  │  │  │  ├── Violette Mazzawi
+ │  │  │  │  │  └── Ibrahim Mazzawi
+ │  │  │  │  │   +Lina Zaatre Munjid
+ │  │  │  │  │    ├── Awni Mazzawi
+ │  │  │  │  │    ├── Lilyan Mazzawi
+ │  │  │  │  │    ├── Basma Mazzawi
+ │  │  │  │  │    └── Basel Mazzawi
+ │  │  │  │  ├── Yusra Mazzawi
+ │  │  │  │  ├── Wadeaah Mazzawi
+ │  │  │  │  ├── Wadie Mazzawi
+ │  │  │  │  │ +Therez Mikhaeel Mazzawi
+ │  │  │  │  │  ├── Mikhaeel Mazzawi
+ │  │  │  │  │  │ +Amal Victor Awees
+ │  │  │  │  │  │  ├── Wadie Mazzawi
+ │  │  │  │  │  │  ├── Reem Mazzawi
+ │  │  │  │  │  │  └── Mays Mazzawi
+ │  │  │  │  │  ├── Mufeed Mazzawi
+ │  │  │  │  │  │ +Rojena Fahed Mazzawi
+ │  │  │  │  │  │  ├── Thereza Mazzawi
+ │  │  │  │  │  │  ├── Elias Mazzawi
+ │  │  │  │  │  │  ├── Christeen Mazzawi
+ │  │  │  │  │  │  └── Yuseph Mazzawi
+ │  │  │  │  │  ├── Fairouz Mazzawi
+ │  │  │  │  │  ├── Hanan Mazzawi
+ │  │  │  │  │  └── Moeen Mazzawi
+ │  │  │  │  │   +Areej Fehmi Abu Dahud
+ │  │  │  │  │    └── Fadi Mazzawi
+ │  │  │  │  └── Naef Mazzawi
+ │  │  │  ├── Afifi Mazzawi
+ │  │  │  ├── Latifeh Mazzawi
+ │  │  │  ├── Salim Mazzawi
+ │  │  │  │ +1)marta Elias Yunes 2)adla Elias Yunes
+ │  │  │  │  ├── Bandar Mazzawi
+ │  │  │  │  ├── Naeem Mazzawi
+ │  │  │  │  │ +Ramzieh Younes
+ │  │  │  │  │  ├── Rosette Mazzawi
+ │  │  │  │  │  ├── Aydah Mazzawi
+ │  │  │  │  │  ├── Salim Mazzawi
+ │  │  │  │  │  │ +Burbara Jaraisy
+ │  │  │  │  │  │  ├── Naeem Mazzawi
+ │  │  │  │  │  │  │ +Ola Jarjoura Aqueel
+ │  │  │  │  │  │  │  └── Ms. Mazzawi
+ │  │  │  │  │  │  ├── Rana Mazzawi
+ │  │  │  │  │  │  ├── Rami Mazzawi
+ │  │  │  │  │  │  └── Basilious Mazzawi
+ │  │  │  │  │  ├── Suheil Mazzawi
+ │  │  │  │  │  │ +Nawal Abbud Yuseph
+ │  │  │  │  │  │  ├── Amal Mazzawi
+ │  │  │  │  │  │  ├── Ola Mazzawi
+ │  │  │  │  │  │  ├── Elias Mazzawi
+ │  │  │  │  │  │  └── Fares Mazzawi
+ │  │  │  │  │  ├── Nadia Mazzawi
+ │  │  │  │  │  ├── Samia Mazzawi
+ │  │  │  │  │  └── Samir Mazzawi
+ │  │  │  │  │   +Suheir Marjiyeh Muhsen
+ │  │  │  │  │    ├── Reem Mazzawi
+ │  │  │  │  │    └── Majdi (Leon) Mazzawi
+ │  │  │  │  ├── Elia Mazzawi
+ │  │  │  │  │ +Marcelle Mazzawi Naoum
+ │  │  │  │  │  ├── Claudette Mazzawi
+ │  │  │  │  │  ├── Adla (Addoulah) Mazzawi
+ │  │  │  │  │  ├── Nabil Mazzawi
+ │  │  │  │  │  │ +Ikhlas Sweis
+ │  │  │  │  │  │  ├── Nadine Mazzawi
+ │  │  │  │  │  │  ├── Elie Mazzawi
+ │  │  │  │  │  │  └── Elian Mazzawi
+ │  │  │  │  │  ├── Ramzi Mazzawi
+ │  │  │  │  │  │ +Olama Elias Bakhit
+ │  │  │  │  │  │  ├── Reda Mazzawi
+ │  │  │  │  │  │  │ +Manar Khoury Lutfi
+ │  │  │  │  │  │  │  └── Ramzi Mazzawi
+ │  │  │  │  │  │  ├── Ramez Mazzawi
+ │  │  │  │  │  │  ├── Marcelle Mazzawi
+ │  │  │  │  │  │  ├── Tarek Mazzawi
+ │  │  │  │  │  │  └── Randa Mazzawi
+ │  │  │  │  │  ├── Mounir Mazzawi
+ │  │  │  │  │  │ +Madelein Alfred Mondo
+ │  │  │  │  │  │  └── Ziyad Mazzawi
+ │  │  │  │  │  └── Adel Mazzawi
+ │  │  │  │  │   +Dina Elias Bakhit
+ │  │  │  │  │    ├── Elia Mazzawi
+ │  │  │  │  │    ├── Tamara Mazzawi
+ │  │  │  │  │    ├── Tamer Mazzawi
+ │  │  │  │  │    └── Marie Mazzawi
+ │  │  │  │  ├── Rashid Mazzawi
+ │  │  │  │  │ +1)anyes Jon2)???3)joice Unknown
+ │  │  │  │  │  └── Saleem Mazzawi
+ │  │  │  │  │   +Ms. Unknown
+ │  │  │  │  │    └── Mary Anne Mazzawi
+ │  │  │  │  ├── Mounira Mazzawi
+ │  │  │  │  └── George Mazzawi
+ │  │  │  │   +Margueritte Mazzawi Naoum
+ │  │  │  │    ├── Victor Mazzawi
+ │  │  │  │    │ +Hala Sami Sabty
+ │  │  │  │    │  ├── George Mazzawi
+ │  │  │  │    │  └── Dina Mazzawi
+ │  │  │  │    ├── Fayez Mazzawi
+ │  │  │  │    │ +Vivian Masri Edwar
+ │  │  │  │    │  ├── Kareem Mazzawi
+ │  │  │  │    │  ├── Majeed Mazzawi
+ │  │  │  │    │  └── Patrick Mazzawi
+ │  │  │  │    ├── Amira Mazzawi
+ │  │  │  │    └── Suheila Mazzawi
+ │  │  │  ├── Sleiman Mazzawi
+ │  │  │  │ +Farideh Mazzawi Khalil
+ │  │  │  │  ├── Tawfik Mazzawi
+ │  │  │  │  │ +Fairouz Mabjish Elias
+ │  │  │  │  │  ├── Sleiman Mazzawi
+ │  │  │  │  │  │ +Farideh Mazzawi Raja
+ │  │  │  │  │  │  ├── Elham Mazzawi
+ │  │  │  │  │  │  ├── Tawfik Mazzawi
+ │  │  │  │  │  │  ├── Amer Mazzawi
+ │  │  │  │  │  │  │ +Raghida Simaan Tannous
+ │  │  │  │  │  │  │  ├── Ameer Mazzawi
+ │  │  │  │  │  │  │  └── Rawi Mazzawi
+ │  │  │  │  │  │  └── Anan Mazzawi
+ │  │  │  │  │  ├── Victor Mazzawi
+ │  │  │  │  │  │ +Soumaya Mazzawi Zidan
+ │  │  │  │  │  │  ├── Vera Mazzawi
+ │  │  │  │  │  │  ├── Lubna Mazzawi
+ │  │  │  │  │  │  └── Yuseph Mazzawi
+ │  │  │  │  │  ├── Jeryes Mazzawi
+ │  │  │  │  │  │ +May Mazzawi Zidan
+ │  │  │  │  │  │  ├── Janette Mazzawi
+ │  │  │  │  │  │  ├── Lina Mazzawi
+ │  │  │  │  │  │  ├── Yakoub Mazzawi
+ │  │  │  │  │  │  │ +Leena Indrya Suheil
+ │  │  │  │  │  │  │  ├── Nataly Mazzawi
+ │  │  │  │  │  │  │  └── Juleen Mazzawi
+ │  │  │  │  │  │  └── Elias Mazzawi
+ │  │  │  │  │  ├── Farid Mazzawi
+ │  │  │  │  │  │ +Evette Totary Muneer
+ │  │  │  │  │  │  ├── Arij Mazzawi
+ │  │  │  │  │  │  ├── Fady Mazzawi
+ │  │  │  │  │  │  │ +Anayat Marjiyeh Faheem
+ │  │  │  │  │  │  │  ├── Kareena Mazzawi
+ │  │  │  │  │  │  │  └── Farid Mazzawi
+ │  │  │  │  │  │  ├── Nisreen Mazzawi
+ │  │  │  │  │  │  ├── Feras Mazzawi
+ │  │  │  │  │  │  │ +Ms. Unknown
+ │  │  │  │  │  │  │  └── Majd Mazzawi
+ │  │  │  │  │  │  └── Areen Mazzawi
+ │  │  │  │  │  ├── Nabeeh Mazzawi
+ │  │  │  │  │  │ +Hanan Rizek Naji
+ │  │  │  │  │  │  ├── Rami Mazzawi
+ │  │  │  │  │  │  ├── Ruba Mazzawi
+ │  │  │  │  │  │  └── Razan Mazzawi
+ │  │  │  │  │  ├── Adnan Mazzawi
+ │  │  │  │  │  ├── Amira Mazzawi
+ │  │  │  │  │  ├── Afifi Mazzawi
+ │  │  │  │  │  └── Abla Mazzawi
+ │  │  │  │  ├── Mary Mazzawi
+ │  │  │  │  ├── Elias Mazzawi
+ │  │  │  │  │ +Julliette Abu-Salem Endrawus
+ │  │  │  │  │  ├── Wasfi Mazzawi
+ │  │  │  │  │  │ +Kamilia Totary Anis
+ │  │  │  │  │  │  ├── Ola Mazzawi
+ │  │  │  │  │  │  ├── Rula Mazzawi
+ │  │  │  │  │  │  ├── Reem Mazzawi
+ │  │  │  │  │  │  └── Elias Mazzawi
+ │  │  │  │  │  ├── Ratib Mazzawi
+ │  │  │  │  │  │ +Juliette Khalil Jammal
+ │  │  │  │  │  │  ├── Maria Mazzawi
+ │  │  │  │  │  │  ├── Rina Mazzawi
+ │  │  │  │  │  │  └── Joseph Mazzawi
+ │  │  │  │  │  ├── Awni Mazzawi
+ │  │  │  │  │  │ +Nadia Mazzawi Aziz
+ │  │  │  │  │  │  ├── Essam Mazzawi
+ │  │  │  │  │  │  │ +Nahi Helou Farid
+ │  │  │  │  │  │  │  └── Awni Mazzawi
+ │  │  │  │  │  │  ├── Anan Mazzawi
+ │  │  │  │  │  │  │ +Amal Sabbagh Zuheir
+ │  │  │  │  │  │  │  └── Tala Mazzawi
+ │  │  │  │  │  │  └── Emad Mazzawi
+ │  │  │  │  │  ├── Zuheir Mazzawi
+ │  │  │  │  │  │ +Nabila Jammal Khalil
+ │  │  │  │  │  │  ├── Vivian Mazzawi
+ │  │  │  │  │  │  ├── Katy Mazzawi
+ │  │  │  │  │  │  └── Ramy Mazzawi
+ │  │  │  │  │  ├── Azmi Mazzawi
+ │  │  │  │  │  │ +Siham Mazzawi Jamal
+ │  │  │  │  │  │  ├── Jiryes Mazzawi
+ │  │  │  │  │  │  └── Eman Mazzawi
+ │  │  │  │  │  └── Zahi Mazzawi
+ │  │  │  │  │   +Ruwayda Abu Sinni Nimer
+ │  │  │  │  │    ├── Einas Mazzawi
+ │  │  │  │  │    ├── Bshara Mazzawi
+ │  │  │  │  │    └── Elia Mazzawi
+ │  │  │  │  ├── Raja Mazzawi
+ │  │  │  │  │ +Mary Sibani Tawfik 2/Samira Abu Nuwara Elias Samira Abu Nuwara Elias
+ │  │  │  │  │  ├── Farideh Mazzawi
+ │  │  │  │  │  ├── Marwan Mazzawi
+ │  │  │  │  │  │ +Salam Mazzawi Anton
+ │  │  │  │  │  │  ├── Raja Mazzawi
+ │  │  │  │  │  │  │ +Colette Nawattha Nazih
+ │  │  │  │  │  │  │  ├── Marwan Mazzawi
+ │  │  │  │  │  │  │  └── Hala Mazzawi
+ │  │  │  │  │  │  ├── Rawand Mazzawi
+ │  │  │  │  │  │  └── Ramez Mazzawi
+ │  │  │  │  │  ├── Munzer Mazzawi
+ │  │  │  │  │  │ +Lilian Ben Saadun Hayem
+ │  │  │  │  │  │  ├── Mary Mazzawi
+ │  │  │  │  │  │  └── Ron Mazzawi
+ │  │  │  │  │  ├── Fatina Mazzawi
+ │  │  │  │  │  ├── Maysoun Mazzawi
+ │  │  │  │  │  ├── Majed Mazzawi
+ │  │  │  │  │  │ +Rose Musallam George
+ │  │  │  │  │  │  ├── John Mazzawi
+ │  │  │  │  │  │  └── Andrew Mazzawi
+ │  │  │  │  │  └── Mazen Mazzawi
+ │  │  │  │  │   +Kari Jesper Robberstad
+ │  │  │  │  │    ├── Tina Mazzawi
+ │  │  │  │  │    ├── Samir Mazzawi
+ │  │  │  │  │    └── Rami Mazzawi
+ │  │  │  │  ├── Yusra Mazzawi
+ │  │  │  │  ├── Fairuz Mazzawi
+ │  │  │  │  ├── Mansour Mazzawi
+ │  │  │  │  ├── Said Mazzawi
+ │  │  │  │  ├── Anton Mazzawi
+ │  │  │  │  │ +Nabiha Sibani Tawfik
+ │  │  │  │  │  ├── Salam Mazzawi
+ │  │  │  │  │  ├── Samia Mazzawi
+ │  │  │  │  │  ├── Maha Mazzawi
+ │  │  │  │  │  ├── Mary Mazzawi
+ │  │  │  │  │  └── Ghassan Mazzawi
+ │  │  │  │  │   +Hanan Sruji Michel
+ │  │  │  │  │    ├── Tony Mazzawi
+ │  │  │  │  │    └── Ameer Mazzawi
+ │  │  │  │  ├── Aziz Mazzawi
+ │  │  │  │  │ +Nawal Helou Nadim
+ │  │  │  │  │  ├── Diana Mazzawi
+ │  │  │  │  │  ├── Nadia Mazzawi
+ │  │  │  │  │  ├── Rimon Mazzawi
+ │  │  │  │  │  │ +Jumanah Khamis Jeries
+ │  │  │  │  │  │  ├── Aziz Mazzawi
+ │  │  │  │  │  │  ├── Adi Mazzawi
+ │  │  │  │  │  │  └── Maysam Mazzawi
+ │  │  │  │  │  └── Ghasoub Mazzawi
+ │  │  │  │  │   +Areej Copty Fouad
+ │  │  │  │  │    ├── Basel Mazzawi
+ │  │  │  │  │    └── Nawal Mazzawi
+ │  │  │  │  └── Jamal Mazzawi
+ │  │  │  │   +Ellen Abu Salem Indrawes
+ │  │  │  │    ├── Hani Mazzawi
+ │  │  │  │    │ +Amal Badaan Tannous
+ │  │  │  │    │  ├── Leena Mazzawi
+ │  │  │  │    │  ├── Randa Mazzawi
+ │  │  │  │    │  ├── Rania Mazzawi
+ │  │  │  │    │  ├── Jumana Mazzawi
+ │  │  │  │    │  └── Jamal Mazzawi
+ │  │  │  │    ├── Amal Mazzawi
+ │  │  │  │    ├── Eva Mazzawi
+ │  │  │  │    ├── Mounir Mazzawi
+ │  │  │  │    │ +Sawsan Farran Joseph
+ │  │  │  │    │  ├── Reema Mazzawi
+ │  │  │  │    │  ├── Feras Mazzawi
+ │  │  │  │    │  └── Elen Mazzawi
+ │  │  │  │    └── Siham Mazzawi
+ │  │  │  ├── Thouria Mazzawi
+ │  │  │  └── Iskandar Mazzawi
+ │  │  │   +Wardeh Mazzawi Dahoud
+ │  │  │    ├── Zhour Mazzawi
+ │  │  │    ├── Asaad Mazzawi
+ │  │  │    ├── Munder Mazzawi
+ │  │  │    │ +Sarah Farraj
+ │  │  │    │  ├── Iskandar Mazzawi
+ │  │  │    │  └── Naseem Mazzawi
+ │  │  │    ├── Marguerite Mazzawi
+ │  │  │    ├── Yvonne Mazzawi
+ │  │  │    ├── Therese Mazzawi
+ │  │  │    ├── Evette Mazzawi
+ │  │  │    ├── Siham Mazzawi
+ │  │  │    └── Jehan Mazzawi
+ │  │  ├── Yousef Mazzawi
+ │  │  │ +Wardeh Hadad Yakoub
+ │  │  │  ├── Adlah Mazzawi
+ │  │  │  ├── Hana Mazzawi
+ │  │  │  ├── Niemeh Mazzawi
+ │  │  │  │ +Mary Jarro
+ │  │  │  │  └── Tawfik Mazzawi
+ │  │  │  │   +Thuraya Abu Saed Elias
+ │  │  │  │    └── Subhiyeh Mazzawi
+ │  │  │  ├── Mineem Mazzawi
+ │  │  │  │ +Nayfeh Mansour Assaad
+ │  │  │  │  ├── Yousef Mazzawi
+ │  │  │  │  │ +Ms. Unknown
+ │  │  │  │  │  ├── Hupert Mazzawi
+ │  │  │  │  │  │ +Ms. Unknown
+ │  │  │  │  │  │  ├── Michel Mazzawi
+ │  │  │  │  │  │  ├── Mark Mazzawi
+ │  │  │  │  │  │  ├── Mathew Mazzawi
+ │  │  │  │  │  │  ├── Mike Mazzawi
+ │  │  │  │  │  │  ├── Peter Mazzawi
+ │  │  │  │  │  │  └── Maggy Mazzawi
+ │  │  │  │  │  ├── Joanna Mazzawi
+ │  │  │  │  │  └── Mitchelli Mazzawi
+ │  │  │  │  ├── Nieman Mazzawi
+ │  │  │  │  │ +Ablah Copty
+ │  │  │  │  │  ├── Niva Mazzawi
+ │  │  │  │  │  ├── Mineem Mazzawi
+ │  │  │  │  │  │ +Ms. Unknown
+ │  │  │  │  │  │  ├── Nieman Mazzawi
+ │  │  │  │  │  │  ├── Mark Mazzawi
+ │  │  │  │  │  │  └── Steven Mazzawi
+ │  │  │  │  │  ├── Tawfik Mazzawi
+ │  │  │  │  │  │ +Ms. Unknown
+ │  │  │  │  │  │  ├── Shadi Mazzawi
+ │  │  │  │  │  │  └── Nicolas Mazzawi
+ │  │  │  │  │  └── Jawdat Mazzawi
+ │  │  │  │  ├── Louis Mazzawi
+ │  │  │  │  ├── Michel Mazzawi
+ │  │  │  │  ├── Jean Mazzawi
+ │  │  │  │  │ +Marcelle Tubia
+ │  │  │  │  │  ├── Maha Mazzawi
+ │  │  │  │  │  ├── Salim Mazzawi
+ │  │  │  │  │  │ +Nihaya Abu Rahme Elias
+ │  │  │  │  │  │  ├── Jean Mazzawi
+ │  │  │  │  │  │  └── Naji Mazzawi
+ │  │  │  │  │  └── Nael Mazzawi
+ │  │  │  │  │   +Muna Akkawi Fahed
+ │  │  │  │  │    ├── Fares Mazzawi
+ │  │  │  │  │    └── Ameer Mazzawi
+ │  │  │  │  └── Rose Mazzawi
+ │  │  │  ├── Naoum Mazzawi
+ │  │  │  │ +Thouria Mazzawi Asaad Sleiman
+ │  │  │  │  ├── Alfred (Farid) Mazzawi
+ │  │  │  │  ├── Angele Mazzawi
+ │  │  │  │  ├── Marguerite Mazzawi
+ │  │  │  │  ├── Solange Mazzawi
+ │  │  │  │  ├── Albert Mazzawi
+ │  │  │  │  ├── Alice Mazzawi
+ │  │  │  │  ├── Mary Mazzawi
+ │  │  │  │  ├── George Mazzawi
+ │  │  │  │  │ +Rose Hajjar
+ │  │  │  │  │  ├── Kamal Mazzawi
+ │  │  │  │  │  ├── Suraya Mazzawi
+ │  │  │  │  │  └── Layla Mazzawi
+ │  │  │  │  ├── Marcelle Mazzawi
+ │  │  │  │  └── Francois Mazzawi
+ │  │  │  └── Niaman Mazzawi
+ │  │  ├── Nasrah Mazzawi
+ │  │  └── Hilweh Mazzawi
+ │  ├── Abdullah Mazzawi
+ │  │ +Sofia Azzam Mhesen
+ │  │  ├── Saleh Mazzawi
+ │  │  │ +Rojina Mansour Abdalla
+ │  │  │  ├── Shibly Mazzawi
+ │  │  │  │ +1) Labibeh Karam 2) Mateel Mazzawi Moussa
+ │  │  │  │  ├── Hind Mazzawi
+ │  │  │  │  ├── Subhi Mazzawi
+ │  │  │  │  ├── Saleh Mazzawi
+ │  │  │  │  │ +Georgette Mazzawi Najib
+ │  │  │  │  │  ├── Hanna Mazzawi
+ │  │  │  │  │  │ +Izees Abu Rahmon
+ │  │  │  │  │  │  ├── Georgina Mazzawi
+ │  │  │  │  │  │  └── Narmeen Mazzawi
+ │  │  │  │  │  ├── Fairuz Mazzawi
+ │  │  │  │  │  ├── Labibeh Mazzawi
+ │  │  │  │  │  ├── Hani Mazzawi
+ │  │  │  │  │  │ +Ghada Banna Essa
+ │  │  │  │  │  │  ├── Saleh Mazzawi
+ │  │  │  │  │  │  ├── Yuseph Mazzawi
+ │  │  │  │  │  │  └── Hanna Mazzawi
+ │  │  │  │  │  ├── Agnes Mazzawi
+ │  │  │  │  │  └── Isabelle Mazzawi
+ │  │  │  │  ├── Basmeh Mazzawi
+ │  │  │  │  ├── Bassem Mazzawi
+ │  │  │  │  │ +Manerva Mazzawi
+ │  │  │  │  │  ├── Shibly Mazzawi
+ │  │  │  │  │  ├── Edwar (Edy) Mazzawi
+ │  │  │  │  │  │ +Cedar Dahoud Maurice
+ │  │  │  │  │  │  ├── Manerva Mazzawi
+ │  │  │  │  │  │  ├── Bassem Mazzawi
+ │  │  │  │  │  │  ├── Mary Mazzawi
+ │  │  │  │  │  │  └── Mirna Mazzawi
+ │  │  │  │  │  ├── George Mazzawi
+ │  │  │  │  │  │ +Nabeela Saleeba
+ │  │  │  │  │  │  ├── Ranin Mazzawi
+ │  │  │  │  │  │  ├── Tamer Mazzawi
+ │  │  │  │  │  │  └── Rany Mazzawi
+ │  │  │  │  │  ├── Lily Mazzawi
+ │  │  │  │  │  ├── Randa Mazzawi
+ │  │  │  │  │  └── Reem Mazzawi
+ │  │  │  │  ├── Marie Mazzawi
+ │  │  │  │  └── Mazzawi Mazzawi
+ │  │  │  │   +Margo Dahdal
+ │  │  │  │    ├── Rimon Mazzawi
+ │  │  │  │    │ +Hala Sabeeh Qupty
+ │  │  │  │    │  ├── Mazzawi Mazzawi
+ │  │  │  │    │  ├── Izees Mazzawi
+ │  │  │  │    │  ├── Mariana Mazzawi
+ │  │  │  │    │  └── Nataly Mazzawi
+ │  │  │  │    ├── Mounir Mazzawi
+ │  │  │  │    │ +Sawsan Aboud Lotof
+ │  │  │  │    │  ├── Rimonda Mazzawi
+ │  │  │  │    │  ├── Margarit Mazzawi
+ │  │  │  │    │  └── Maroun Mazzawi
+ │  │  │  │    └── Rimonda Mazzawi
+ │  │  │  ├── Hajaleh Mazzawi
+ │  │  │  ├── Hana Mazzawi
+ │  │  │  ├── Radi Mazzawi
+ │  │  │  │ +Yamameh Dardas
+ │  │  │  │  ├── Salem Mazzawi
+ │  │  │  │  │ +Hajaleh Nicola Mazzawi
+ │  │  │  │  │  ├── Rose Mazzawi
+ │  │  │  │  │  ├── Ruda Mazzawi
+ │  │  │  │  │  │ +Ramzyeh Karam Rashid
+ │  │  │  │  │  │  ├── Salem Mazzawi
+ │  │  │  │  │  │  │ +Hala Laham Ibrahim
+ │  │  │  │  │  │  │  ├── Ramzieh Mazzawi
+ │  │  │  │  │  │  │  └── Ruda Mazzawi
+ │  │  │  │  │  │  └── Amer Mazzawi
+ │  │  │  │  │  │   +Awham Jiries Mussa
+ │  │  │  │  │  │    ├── Hiba Mazzawi
+ │  │  │  │  │  │    ├── Hanin Mazzawi
+ │  │  │  │  │  │    ├── Haya Mazzawi
+ │  │  │  │  │  │    └── Yasmina Mazzawi
+ │  │  │  │  │  ├── Fawzi Mazzawi
+ │  │  │  │  │  │ +Lourees Hayek Yussef
+ │  │  │  │  │  │  ├── Nader Mazzawi
+ │  │  │  │  │  │  ├── Bader Mazzawi
+ │  │  │  │  │  │  │ +Rana Jadon Joseph
+ │  │  │  │  │  │  │  ├── Habib Mazzawi
+ │  │  │  │  │  │  │  ├── Wiliam Mazzawi
+ │  │  │  │  │  │  │  └── Carmen Mazzawi
+ │  │  │  │  │  │  ├── Andera Mazzawi
+ │  │  │  │  │  │  ├── Hael Mazzawi
+ │  │  │  │  │  │  ├── Marwan Mazzawi
+ │  │  │  │  │  │  │ +Claire Khoury Jeryes
+ │  │  │  │  │  │  │  ├── Lorees Mazzawi
+ │  │  │  │  │  │  │  ├── Rony Mazzawi
+ │  │  │  │  │  │  │  ├── Lana Mazzawi
+ │  │  │  │  │  │  │  ├── Rozan Mazzawi
+ │  │  │  │  │  │  │  └── Malak Mazzawi
+ │  │  │  │  │  │  ├── Nael Nazzawi
+ │  │  │  │  │  │  └── Maher Mazzawi
+ │  │  │  │  │  │   +Reena Muklashi Anwar
+ │  │  │  │  │  │    ├── Yamen Mazzawi
+ │  │  │  │  │  │    └── Ady Mazzawi
+ │  │  │  │  │  ├── William Mazzawi
+ │  │  │  │  │  ├── Ibrahim Mazzawi
+ │  │  │  │  │  │ +Rose Fallash Iskandar
+ │  │  │  │  │  │  ├── Jules Mazzawi
+ │  │  │  │  │  │  ├── Nadin Mazzawi
+ │  │  │  │  │  │  └── Jean Mazzawi
+ │  │  │  │  │  └── Camelia Mazzawi
+ │  │  │  │  ├── Saleemeh Mazzawi
+ │  │  │  │  ├── Mikhaeel Mazzawi
+ │  │  │  │  │ +Rojina Nicola Mazzawi
+ │  │  │  │  │  ├── Fahed Mazzawi
+ │  │  │  │  │  │ +Camilia Sruji Tannous
+ │  │  │  │  │  │  ├── Rojina Mazzawi
+ │  │  │  │  │  │  ├── Randa Mazzawi
+ │  │  │  │  │  │  ├── Dina Mazzawi
+ │  │  │  │  │  │  ├── Mikhaeel Mazzawi
+ │  │  │  │  │  │  │ +Vera Mazzawi Victor
+ │  │  │  │  │  │  │  ├── Fahed Mazzawi
+ │  │  │  │  │  │  │  ├── Waseem Mazzawi
+ │  │  │  │  │  │  │  └── Leen Mazzawi
+ │  │  │  │  │  │  └── Wissam Mazzawi
+ │  │  │  │  │  ├── Ablah Mazzawi
+ │  │  │  │  │  ├── Therese Mazzawi
+ │  │  │  │  │  ├── Afaf Mazzawi
+ │  │  │  │  │  ├── Salam Mazzawi
+ │  │  │  │  │  ├── Salwa Mazzawi
+ │  │  │  │  │  ├── Ghassan Mazzawi
+ │  │  │  │  │  │ +Fatina Haddad Yusef
+ │  │  │  │  │  │  ├── Ghasoub Mazzawi
+ │  │  │  │  │  │  └── Katreen Mazzawi
+ │  │  │  │  │  ├── Layla Mazzawi
+ │  │  │  │  │  └── Neeme Mazzawi
+ │  │  │  │  │   +Feryal Zaatre Munjid
+ │  │  │  │  │    ├── Joseph Mazzawi
+ │  │  │  │  │    ├── Fadi Mazzawi
+ │  │  │  │  │    └── Ranin Mazzawi
+ │  │  │  │  ├── Maarouf Mazzawi
+ │  │  │  │  │ +1)louiza Murani Khalil 2)mary Khalil Bshara
+ │  │  │  │  │  ├── Janette Mazzawi
+ │  │  │  │  │  ├── Nahi Mazzawi
+ │  │  │  │  │  ├── Hani Mazzawi
+ │  │  │  │  │  │ +Rudayna Mazzawi Abdallah
+ │  │  │  │  │  │  ├── Katy Mazzawi
+ │  │  │  │  │  │  ├── Marouf Mazzawi
+ │  │  │  │  │  │  ├── Haifa Mazzawi
+ │  │  │  │  │  │  └── Emtaness Mazzawi
+ │  │  │  │  │  ├── Raji Mazzawi
+ │  │  │  │  │  │ +1) Amira Jubran 2)adeil Moussa Fouad
+ │  │  │  │  │  │  ├── Maroun Mazzawi
+ │  │  │  │  │  │  │ +Katarzyna Karczewska
+ │  │  │  │  │  │  │  └── Miriam Mazzawi
+ │  │  │  │  │  │  ├── Mirvat Mazzawi
+ │  │  │  │  │  │  ├── Mariana Mazzawi
+ │  │  │  │  │  │  ├── Maisa Mazzawi
+ │  │  │  │  │  │  ├── Sharbel Mazzawi
+ │  │  │  │  │  │  ├── Lama Mazzawi
+ │  │  │  │  │  │  └── Suha Mazzawi
+ │  │  │  │  │  ├── Amira Mazzawi
+ │  │  │  │  │  ├── Wafa Mazzawi
+ │  │  │  │  │  └── Elie Mazzawi
+ │  │  │  │  │   +Ezdehar Indraous Youssef
+ │  │  │  │  │    ├── Julia Mazzawi
+ │  │  │  │  │    ├── Fadi Mazzawi
+ │  │  │  │  │    ├── Juwana Mazzawi
+ │  │  │  │  │    ├── Jeyana Mazzawi
+ │  │  │  │  │    └── George Mazzawi
+ │  │  │  │  ├── Simaan Mazzawi
+ │  │  │  │  │ +Mary Mazzawi Shibly
+ │  │  │  │  │  ├── Rene Mazzawi
+ │  │  │  │  │  ├── Suheil Mazzawi
+ │  │  │  │  │  │ +Rudi Ashkar Salim
+ │  │  │  │  │  │  ├── Simon Mazzawi
+ │  │  │  │  │  │  │ +Christeen Najjar William
+ │  │  │  │  │  │  │  └── Leen Mazzawi
+ │  │  │  │  │  │  └── Samir Mazzawi
+ │  │  │  │  │  │   +Mona Kardosh Anwar
+ │  │  │  │  │  │    └── Tala Mazzawi
+ │  │  │  │  │  ├── Siham Mazzawi
+ │  │  │  │  │  ├── Shafik{Zuheir} Mazzawi
+ │  │  │  │  │  ├── May Mazzawi
+ │  │  │  │  │  ├── Diana Mazzawi
+ │  │  │  │  │  ├── Inaam Mazzawi
+ │  │  │  │  │  ├── Jeryes Mazzawi
+ │  │  │  │  │  │ +Mona Khyou Saleh
+ │  │  │  │  │  │  ├── Rozan Mazzawi
+ │  │  │  │  │  │  ├── Najwan Mazzawi
+ │  │  │  │  │  │  ├── Merna Mazzawi
+ │  │  │  │  │  │  ├── Amal Mazzawi
+ │  │  │  │  │  │  └── Tamer Mazzawi
+ │  │  │  │  │  └── Josef Mazzawi
+ │  │  │  │  │   +Nabila Danial Awni
+ │  │  │  │  │    ├── Nabil Mazzawi
+ │  │  │  │  │    ├── Rami(Elias) Mazzawi
+ │  │  │  │  │    └── Basel Mazzawi
+ │  │  │  │  ├── Abdallah Mazzawi
+ │  │  │  │  │ +Ms. Unknown
+ │  │  │  │  │  ├── Samuel Mazzawi
+ │  │  │  │  │  │ +Sawsan Semaan Hanna
+ │  │  │  │  │  │  ├── Jolie Mazzawi
+ │  │  │  │  │  │  ├── Jassica Mazzawi
+ │  │  │  │  │  │  ├── Joanna Mazzawi
+ │  │  │  │  │  │  └── Loura Mazzawi
+ │  │  │  │  │  ├── Nabeel Mazzawi
+ │  │  │  │  │  │ +Nuha Rezik Assad
+ │  │  │  │  │  │  ├── Rimon Mazzawi
+ │  │  │  │  │  │  ├── Bassam Mazzawi
+ │  │  │  │  │  │  └── Husam Mazzawi
+ │  │  │  │  │  ├── Kamal Mazzawi
+ │  │  │  │  │  │ +Afefeh Jeryes Mousa
+ │  │  │  │  │  │  ├── Rula Mazzawi
+ │  │  │  │  │  │  ├── Reem Mazzawi
+ │  │  │  │  │  │  ├── Lee Anne Mazzawi
+ │  │  │  │  │  │  └── Abdallah Mazzawi
+ │  │  │  │  │  └── Kamel Mazzawi
+ │  │  │  │  ├── Aziz Mazzawi
+ │  │  │  │  │ +Georgette Ghrayeb Elias
+ │  │  │  │  │  ├── Suheir Mazzawi
+ │  │  │  │  │  ├── Shawki Mazzawi
+ │  │  │  │  │  │ +Amal Danial Fayez
+ │  │  │  │  │  │  ├── Aziz Mazzawi
+ │  │  │  │  │  │  │ +Fatin Hamati Bshara
+ │  │  │  │  │  │  │  └── Shawki Mazzawi
+ │  │  │  │  │  │  ├── Osama Mazzawi
+ │  │  │  │  │  │  ├── Maroun Mazzawi
+ │  │  │  │  │  │  └── Alaa Mazzawi
+ │  │  │  │  │  └── Henry Mazzawi
+ │  │  │  │  │   +Aleki Matar Fuad
+ │  │  │  │  │    ├── Waseem Mazzawi
+ │  │  │  │  │    ├── Wesam Mazzawi
+ │  │  │  │  │    ├── Christin Mazzawi
+ │  │  │  │  │    ├── Shadi Mazzawi
+ │  │  │  │  │    └── Nermin Mazzawi
+ │  │  │  │  └── Hana Mazzawi
+ │  │  │  ├── Raji Mazzawi
+ │  │  │  │ +Olga Marche Yuseph
+ │  │  │  │  ├── Fairuz Mazzawi
+ │  │  │  │  ├── Ursula Mazzawi
+ │  │  │  │  ├── Marcelle Mazzawi
+ │  │  │  │  ├── Gabi Mazzawi
+ │  │  │  │  │ +Samira Drakebly George
+ │  │  │  │  │  ├── Raji Mazzawi
+ │  │  │  │  │  │ +Coca Unknown
+ │  │  │  │  │  │  ├── Salma Mazzawi
+ │  │  │  │  │  │  └── Samira Mazzawi
+ │  │  │  │  │  ├── Randa Mazzawi
+ │  │  │  │  │  ├── Jihad Mazzawi
+ │  │  │  │  │  │ +Madina Unknown
+ │  │  │  │  │  │  └── Gabrielle Mazzawi
+ │  │  │  │  │  └── Elias (Elie) Mazzawi
+ │  │  │  │  └── Fouad Mazzawi
+ │  │  │  │   +Rosette Hawila
+ │  │  │  │    ├── Fadi Mazzawi
+ │  │  │  │    │ +Yordanka Banal Mmoliner
+ │  │  │  │    │  ├── Yasmine Mazzawi
+ │  │  │  │    │  └── Jason Mazzawi
+ │  │  │  │    ├── Hadi Mazzawi
+ │  │  │  │    │ +Lina Nakhoul
+ │  │  │  │    │  ├── Charbel Mazzawi
+ │  │  │  │    │  └── Rita Mazzawi
+ │  │  │  │    ├── Grace Mazzawi
+ │  │  │  │    ├── Olga Mazzawi
+ │  │  │  │    └── Rene Mazzawi
+ │  │  │  ├── Zahiya Mazzawi
+ │  │  │  ├── Najib Mazzawi
+ │  │  │  │ +Maryam Karam Anton
+ │  │  │  │  ├── George Mazzawi
+ │  │  │  │  │ +1) Nazira Nicola Mazzawi 2) Alexandra Makario
+ │  │  │  │  │  ├── Nelly Mazzawi
+ │  │  │  │  │  ├── Najib Mazzawi
+ │  │  │  │  │  │ +Nahi Shaer Saeed
+ │  │  │  │  │  │  ├── Manal Mazzawi
+ │  │  │  │  │  │  └── George Mazzawi
+ │  │  │  │  │  ├── Nabil Mazzawi
+ │  │  │  │  │  │ +Suad Abd Elnur Sael
+ │  │  │  │  │  │  ├── Nazira Mazzawi
+ │  │  │  │  │  │  ├── Lina Mazzawi
+ │  │  │  │  │  │  ├── Rita Mazzawi
+ │  │  │  │  │  │  ├── Essam Mazzawi
+ │  │  │  │  │  │  │ +Jannette Mazzawi Naseef
+ │  │  │  │  │  │  │  ├── Rain Mazzawi
+ │  │  │  │  │  │  │  └── Tia Mazzawi
+ │  │  │  │  │  │  └── Shadi Mazzawi
+ │  │  │  │  │  ├── Andre Mazzawi
+ │  │  │  │  │  ├── Samir Mazzawi
+ │  │  │  │  │  ├── Mary Mazzawi
+ │  │  │  │  │  ├── Hilda Mazzawi
+ │  │  │  │  │  ├── Suad Mazzawi
+ │  │  │  │  │  ├── Amira Mazzawi
+ │  │  │  │  │  └── Samira Mazzawi
+ │  │  │  │  ├── Georgette Mazzawi
+ │  │  │  │  ├── Fairouz Mazzawi
+ │  │  │  │  ├── Thuraya Mazzawi
+ │  │  │  │  └── Naeem Mazzawi
+ │  │  │  ├── Nicola Mazzawi
+ │  │  │  │ +Salma Yunes
+ │  │  │  │  ├── Rojina Mazzawi
+ │  │  │  │  ├── Hajaleh Mazzawi
+ │  │  │  │  ├── Arab Mazzawi
+ │  │  │  │  │ +Marcelle Mazzawi Raji
+ │  │  │  │  │  ├── Nicola Mazzawi
+ │  │  │  │  │  │ +Endera Mazzawi Fawzi
+ │  │  │  │  │  │  ├── Arab Mazzawi
+ │  │  │  │  │  │  ├── John Mazzawi
+ │  │  │  │  │  │  └── Marcelle Mazzawi
+ │  │  │  │  │  ├── Salma Mazzawi
+ │  │  │  │  │  ├── Nadera Mazzawi
+ │  │  │  │  │  ├── Sawsan Mazzawi
+ │  │  │  │  │  ├── Kheir Mazzawi
+ │  │  │  │  │  └── Reem Mazzawi
+ │  │  │  │  └── Nazirah Mazzawi
+ │  │  │  ├── Nassif Mazzawi
+ │  │  │  │ +Shafika Helo Mubarak
+ │  │  │  │  ├── Zidan Mazzawi
+ │  │  │  │  │ +Ms. Souri
+ │  │  │  │  │  ├── Nassif Mazzawi
+ │  │  │  │  │  │ +Alissar Mazzawi Sami
+ │  │  │  │  │  │  ├── Zidan Mazzawi
+ │  │  │  │  │  │  ├── Janette Mazzawi
+ │  │  │  │  │  │  ├── Sami Mazzawi
+ │  │  │  │  │  │  └── Wasseem Mazzawi
+ │  │  │  │  │  ├── Bishara Mazzawi
+ │  │  │  │  │  ├── Elia Mazzawi
+ │  │  │  │  │  ├── Jihan Mazzawi
+ │  │  │  │  │  ├── Samia Mazzawi
+ │  │  │  │  │  ├── May Mazzawi
+ │  │  │  │  │  ├── Sabah Mazzawi
+ │  │  │  │  │  └── Suheir Mazzawi
+ │  │  │  │  ├── Sami Mazzawi
+ │  │  │  │  │ +Jandarc Helou Elias
+ │  │  │  │  │  ├── Samih Mazzawi
+ │  │  │  │  │  ├── Victor Mazzawi
+ │  │  │  │  │  ├── Elias Mazzawi
+ │  │  │  │  │  ├── Alissar Mazzawi
+ │  │  │  │  │  │ +Nassif Mazzawi
+ │  │  │  │  │  │  ├── Zedan Mazzawi
+ │  │  │  │  │  │  ├── Janette Mazzawi
+ │  │  │  │  │  │  ├── Samir Mazzawi
+ │  │  │  │  │  │  └── Wasim Mazzawi
+ │  │  │  │  │  ├── Katereen Mazzawi
+ │  │  │  │  │  ├── Samia Mazzawi
+ │  │  │  │  │  └── Jiana Mazzawi
+ │  │  │  │  ├── Fayez Mazzawi
+ │  │  │  │  └── Samih Mazzawi
+ │  │  │  └── Said Mazzawi
+ │  │  │   +Thourya Zaher Shibly
+ │  │  │    ├── Joul Mazzawi
+ │  │  │    │ +Ms. Unknown
+ │  │  │    │  ├── Said(Joe) Mazzawi
+ │  │  │    │  ├── Roni Mazzawi
+ │  │  │    │  └── Gladis Mazzawi
+ │  │  │    ├── Juliette Mazzawi
+ │  │  │    ├── Elias Mazzawi
+ │  │  │    │ +Ms. Unknown
+ │  │  │    │  ├── Suheil Mazzawi
+ │  │  │    │  └── Diana Mazzawi
+ │  │  │    ├── Emil Mazzawi
+ │  │  │    │ +Ms. Unknown
+ │  │  │    │  ├── Nimer Mazzawi
+ │  │  │    │  └── Tina Mazzawi
+ │  │  │    ├── Abla Mazzawi
+ │  │  │    ├── Layla Mazzawi
+ │  │  │    └── Ayda Mazzawi
+ │  │  └── Jeryes Mazzawi
+ │  │   +Afifeh Khoury
+ │  │    ├── Khalil Mazzawi
+ │  │    ├── Mateel Mazzawi
+ │  │    ├── Fadeel Mazzawi
+ │  │    │ +Thurya Abu Salem Tannous
+ │  │    │  ├── Afifi Mazzawi
+ │  │    │  ├── Jeryes Mazzawi
+ │  │    │  │ +Vickie Issac Yako
+ │  │    │  │  ├── Fadeel Mazzawi
+ │  │    │  │  ├── Chris Mazzawi
+ │  │    │  │  └── Anthony Mazzawi
+ │  │    │  └── Tawfik Mazzawi
+ │  │    │   +Ms. Unknown
+ │  │    │    └── Nabil Mazzawi
+ │  │    ├── Malakeh Mazzawi
+ │  │    ├── Fadel Mazzawi
+ │  │    └── Fadoul Mazzawi
+ │  │     +Latefeh Matar Yacoub
+ │  │      ├── Diab Mazzawi
+ │  │      │ +Mary Nseir Sleiman
+ │  │      │  └── George Mazzawi
+ │  │      │   +Suha Zaatre Fransice
+ │  │      │    ├── Maria Mazzawi
+ │  │      │    ├── Diab Mazzawi
+ │  │      │    └── Ragd Mazzawi
+ │  │      ├── Afif Mazzawi
+ │  │      │ +Ms. Unknown
+ │  │      │  ├── Edward Mazzawi
+ │  │      │  │ +Abeer Shurush Husni
+ │  │      │  │  ├── Afif Mazzawi
+ │  │      │  │  ├── Samer Mazzawi
+ │  │      │  │  └── Jean Mazzawi
+ │  │      │  ├── Hani Mazzawi
+ │  │      │  ├── Sawsan Mazzawi
+ │  │      │  ├── Samir Mazzawi
+ │  │      │  ├── Maher Mazzawi
+ │  │      │  │ +Amira Khoury Farid
+ │  │      │  │  ├── Lana Mazzawi
+ │  │      │  │  ├── Liyan Mazzawi
+ │  │      │  │  └── Luzian Mazzawi
+ │  │      │  ├── Muna Mazzawi
+ │  │      │  └── Fadoul Mazzawi
+ │  │      │   +Suzanne Kazmouz George
+ │  │      │    ├── Yasmeen Mazzawi
+ │  │      │    ├── Rani Mazzawi
+ │  │      │    └── Nataly Mazzawi
+ │  │      ├── Fawzi Mazzawi
+ │  │      │ +Camilia Qupty Hanna
+ │  │      │  ├── Samir Mazzawi
+ │  │      │  │ +Reem Rizik Jamil
+ │  │      │  │  ├── Fawzi Mazzawi
+ │  │      │  │  ├── Majd Mazzawi
+ │  │      │  │  └── Ward Mazzawi
+ │  │      │  ├── Suheil Mazzawi
+ │  │      │  │ +Enaya Kattoura Louis
+ │  │      │  │  ├── Camilia Mazzawi
+ │  │      │  │  └── Rabea Mazzawi
+ │  │      │  ├── Sahar Mazzawi
+ │  │      │  ├── Suzane Mazzawi
+ │  │      │  ├── Lubna Mazzawi
+ │  │      │  └── Fifi Mazzawi
+ │  │      └── Thouraya Mazzawi
+ │  ├── Wardeh Mazzawi
+ │  └── Khazneh Mazzawi
+ └── Moussa Mazzawi
+  +Ms. Unknown
+   ├── Ibrahim Mazzawi
+   ├── Hilaneh Mazzawi
+   ├── Mariam Mazzawi
+   ├── Dahoud Mazzawi
+   │ +Takla Sawaf
+   │  ├── Sleiman Mazzawi
+   │  │ +Wardeh Ghoros Yacoub
+   │  │  ├── Elias Mazzawi
+   │  │  │ +Adlah Hawila Yussef
+   │  │  │  ├── Nazirah Mazzawi
+   │  │  │  ├── Marie Mazzawi
+   │  │  │  ├── Wadeaa Mazzawi
+   │  │  │  ├── Sadika Mazzawi
+   │  │  │  ├── Deeb Mazzawi
+   │  │  │  ├── Adeeb Mazzawi
+   │  │  │  └── Nimer Mazzawi
+   │  │  │   +Ms. Unknown
+   │  │  │    ├── Adeeb Mazzawi
+   │  │  │    │ +Zuha Totary Elias
+   │  │  │    │  ├── Johnny (Hanna) Mazzawi
+   │  │  │    │  │ +Samar Hadad Nabil
+   │  │  │    │  │  └── Adeeb Mazzawi
+   │  │  │    │  ├── Marlene Mazzawi
+   │  │  │    │  └── Bishara Mazzawi
+   │  │  │    │   +Brenda Adolfo Vazquez
+   │  │  │    │    └── Pierre Mazzawi
+   │  │  │    ├── Elias Mazzawi
+   │  │  │    │ +Raghida Grayeb George
+   │  │  │    │  ├── Nimer Mazzawi
+   │  │  │    │  ├── Gladis Mazzawi
+   │  │  │    │  └── Marianna Mazzawi
+   │  │  │    ├── Therese Mazzawi
+   │  │  │    ├── Gabi Mazzawi
+   │  │  │    │ +Fadwa Mazzawi Saeed
+   │  │  │    │  ├── Tanios Mazzawi
+   │  │  │    │  └── Marios Mazzawi
+   │  │  │    ├── Suzette Mazzawi
+   │  │  │    ├── Janette Mazzawi
+   │  │  │    ├── Edwar Mazzawi
+   │  │  │    │ +Sawsan Maalouf Fahed
+   │  │  │    │  ├── Menerva Mazzawi
+   │  │  │    │  ├── Shadi Mazzawi
+   │  │  │    │  └── Alhan Mazzawi
+   │  │  │    ├── Zuher Mazzawi
+   │  │  │    │ +Hind Qupty Faraj
+   │  │  │    │  ├── Fairuz Mazzawi
+   │  │  │    │  ├── Venus Mazzawi
+   │  │  │    │  ├── Vivian Mazzawi
+   │  │  │    │  └── Firas Mazzawi
+   │  │  │    ├── Kawthar Mazzawi
+   │  │  │    └── Katerina Mazzawi
+   │  │  ├── Nazha Mazzawi
+   │  │  ├── Abdou Mazzawi
+   │  │  │ +Labebeh Mazzawi Elias
+   │  │  │  ├── Fadwa Mazzawi
+   │  │  │  └── Saleema Mazzawi
+   │  │  ├── Dahoud Mazzawi
+   │  │  │ +Adlah Sruji Saleem
+   │  │  │  ├── Warda Mazzawi
+   │  │  │  ├── Nazha Mazzawi
+   │  │  │  ├── Abdallah Mazzawi
+   │  │  │  │ +Salwa Nakhle Nasri
+   │  │  │  │  ├── Mary Mazzawi
+   │  │  │  │  ├── Dahoud Mazzawi
+   │  │  │  │  │ +Bahia Far Subhi
+   │  │  │  │  │  ├── Juwanna Mazzawi
+   │  │  │  │  │  ├── Abdallah Mazzawi
+   │  │  │  │  │  └── Mario Mazzawi
+   │  │  │  │  ├── Lucy Mazzawi
+   │  │  │  │  └── Yuseph Mazzawi
+   │  │  │  ├── Sleiman Mazzawi
+   │  │  │  │ +Rose Bagtasar Zaki
+   │  │  │  │  ├── Yuseph Mazzawi
+   │  │  │  │  │ +Marcelle Musa George
+   │  │  │  │  │  ├── Sirin Mazzawi
+   │  │  │  │  │  ├── Sintia Mazzawi
+   │  │  │  │  │  └── Sleiman Mazzawi
+   │  │  │  │  ├── Eva Mazzawi
+   │  │  │  │  ├── Ghada Mazzawi
+   │  │  │  │  ├── Raghida Mazzawi
+   │  │  │  │  └── Azmi Mazzawi
+   │  │  │  └── Sami Mazzawi
+   │  │  │   +Hilane Eilabouny Jeryes
+   │  │  │    ├── Hani Mazzawi
+   │  │  │    │ +Rabab Bisharat Elias
+   │  │  │    │  ├── Saly Mazzawi
+   │  │  │    │  ├── Samir Mazzawi
+   │  │  │    │  └── Saher Mazzawi
+   │  │  │    ├── Halla Mazzawi
+   │  │  │    ├── Adela Mazzawi
+   │  │  │    ├── Adel Mazzawi
+   │  │  │    │ +Muna Bisharat Elias
+   │  │  │    │  ├── Dona Mazzawi
+   │  │  │    │  └── Jiries Mazzawi
+   │  │  │    ├── Fatina Mazzawi
+   │  │  │    └── Naela Mazzawi
+   │  │  ├── Asaad Mazzawi
+   │  │  ├── Adlah Mazzawi
+   │  │  └── Gerges Mazzawi
+   │  │    ├── Yuseph Mazzawi
+   │  │    ├── Alees Mazzawi
+   │  │    ├── Asaad Mazzawi
+   │  │    ├── George Mazzawi
+   │  │    ├── Marie Mazzawi
+   │  │    └── Yassou Mazzawi
+   │  ├── Yousef Mazzawi
+   │  │ +Saadah Matta Elias
+   │  │  ├── Farha Mazzawi
+   │  │  ├── Jemeela Mazzawi
+   │  │  └── Salim Mazzawi
+   │  │   +Adlah Mazzawi Sleiman
+   │  │    └── Yousef Mazzawi
+   │  │     +Labibeh Mazzawi
+   │  │      ├── Salim Mazzawi
+   │  │      │ +Louisa Hawa Hanna
+   │  │      │  ├── Yuseph Mazzawi
+   │  │      │  ├── Grace Mazzawi
+   │  │      │  └── Jessy Mazzawi
+   │  │      ├── Jeryes Mazzawi
+   │  │      │ +Wafa Abu Helou Yacob
+   │  │      │  ├── Sylvia Mazzawi
+   │  │      │  ├── Ashraf Mazzawi
+   │  │      │  └── Cezar Mazzawi
+   │  │      ├── Suheil Mazzawi
+   │  │      │ +Amal Hamam Hanna
+   │  │      │  ├── Shady Mazzawi
+   │  │      │  ├── Ameer Mazzawi
+   │  │      │  └── Sereen Mazzawi
+   │  │      └── Sawsan Mazzawi
+   │  ├── Ibrahim Mazzawi
+   │  │ +Martha Assileh Yuseph
+   │  │  ├── Warda Mazzawi
+   │  │  ├── Afifeh Mazzawi
+   │  │  ├── Jeryes Mazzawi
+   │  │  │ +Rafia Abu Raed Yussef
+   │  │  │  ├── Marie Mazzawi
+   │  │  │  ├── Jameel Mazzawi
+   │  │  │  │ +Agnees Unknown
+   │  │  │  │  ├── Marwan Mazzawi
+   │  │  │  │  │ +Jenevief Dbyat Fadool
+   │  │  │  │  │  ├── Jameel Mazzawi
+   │  │  │  │  │  │ +Ms. Unknown
+   │  │  │  │  │  │  └── Tala Mazzawi
+   │  │  │  │  │  ├── Ameer Mazzawi
+   │  │  │  │  │  │ +Rozalin ---- Neameh
+   │  │  │  │  │  │  └── Juliette Mazzawi
+   │  │  │  │  │  ├── Shereen Mazzawi
+   │  │  │  │  │  └── Areen Mazzawi
+   │  │  │  │  ├── Akram Mazzawi
+   │  │  │  │  │ +Mary Elias Raja
+   │  │  │  │  │  ├── Hisham Mazzawi
+   │  │  │  │  │  ├── Agnees Mazzawi
+   │  │  │  │  │  └── Azmi Mazzawi
+   │  │  │  │  ├── Amal Mazzawi
+   │  │  │  │  ├── Ahlam Mazzawi
+   │  │  │  │  └── Eman Mazzawi
+   │  │  │  ├── Afifeh Mazzawi
+   │  │  │  ├── Afif Mazzawi
+   │  │  │  │ +Therese Sibani Tawfik
+   │  │  │  │  ├── George Mazzawi
+   │  │  │  │  ├── William Mazzawi
+   │  │  │  │  │ +Claire Shammas Nimer
+   │  │  │  │  │  ├── Waseem Mazzawi
+   │  │  │  │  │  ├── Maryan Mazzawi
+   │  │  │  │  │  └── Shada Mazzawi
+   │  │  │  │  ├── Katy Mazzawi
+   │  │  │  │  └── Roni Mazzawi
+   │  │  │  │   +Baseema Jabaly Yuseph
+   │  │  │  │    ├── Duna Mazzawi
+   │  │  │  │    └── Layal Mazzawi
+   │  │  │  ├── Salwa Mazzawi
+   │  │  │  ├── Samih Mazzawi
+   │  │  │  ├── Marcelle Mazzawi
+   │  │  │  ├── Layla Mazzawi
+   │  │  │  └── Therese Mazzawi
+   │  │  └── Farideh Mazzawi
+   │  ├── Iseed Mazzawi
+   │  │ +Saadah Abawi
+   │  │  ├── Jarmas Mazzawi
+   │  │  │ +Saleemeh Mazzawi Abdou
+   │  │  │  ├── Iseed Mazzawi
+   │  │  │  │ +Aniseh Espanioly Salim
+   │  │  │  │  ├── George Mazzawi
+   │  │  │  │  │ +Elham Unknown
+   │  │  │  │  │  ├── Nancy Mazzawi
+   │  │  │  │  │  ├── Iseed Mazzawi
+   │  │  │  │  │  ├── Rami Mazzawi
+   │  │  │  │  │  └── Venice Mazzawi
+   │  │  │  │  ├── Jihad Mazzawi
+   │  │  │  │  │ +Samiha Unknown
+   │  │  │  │  │  ├── Robert Mazzawi
+   │  │  │  │  │  └── Roger Mazzawi
+   │  │  │  │  ├── Riyad Mazzawi
+   │  │  │  │  │ +Amira Unknown
+   │  │  │  │  │  ├── Elie Mazzawi
+   │  │  │  │  │  ├── Elianne Mazzawi
+   │  │  │  │  │  └── Rosanne Mazzawi
+   │  │  │  │  ├── Fadwa Mazzawi
+   │  │  │  │  ├── Ziad Mazzawi
+   │  │  │  │  │ +Ms. Unknown
+   │  │  │  │  │  ├── Lina Mazzawi
+   │  │  │  │  │  ├── Pierre Mazzawi
+   │  │  │  │  │  └── Rana Mazzawi
+   │  │  │  │  └── Marlene Mazzawi
+   │  │  │  ├── Bishara Mazzawi
+   │  │  │  │ +1) Azize Sbete 2)victoria Dagher Farid
+   │  │  │  │  ├── Tanios Mazzawi
+   │  │  │  │  ├── Victor Mazzawi
+   │  │  │  │  ├── Ghassan Mazzawi
+   │  │  │  │  ├── Rita Mazzawi
+   │  │  │  │  └── Ghada Mazzawi
+   │  │  │  ├── Abdou Mazzawi
+   │  │  │  │ +Nahi Mourani Nayef
+   │  │  │  │  ├── Antoinette Mazzawi
+   │  │  │  │  ├── Tony Mazzawi
+   │  │  │  │  │ +Yvette Khalil Saliba
+   │  │  │  │  │  ├── Nahi Mazzawi
+   │  │  │  │  │  ├── Abdou Mazzawi
+   │  │  │  │  │  ├── Jarmas Mazzawi
+   │  │  │  │  │  └── Mr. Mazzawi
+   │  │  │  │  ├── Medhat Mazzawi
+   │  │  │  │  │ +Rula Mkaabal Edwar
+   │  │  │  │  │  ├── Shadi Mazzawi
+   │  │  │  │  │  ├── Madona Mazzawi
+   │  │  │  │  │  └── Juan Mazzawi
+   │  │  │  │  ├── Maher Mazzawi
+   │  │  │  │  │ +Elana Rinawi George
+   │  │  │  │  │  ├── Marina Mazzawi
+   │  │  │  │  │  ├── Mikhaeel Mazzawi
+   │  │  │  │  │  └── Chris Mazzawi
+   │  │  │  │  ├── Nisreen Mazzawi
+   │  │  │  │  ├── Shereen Mazzawi
+   │  │  │  │  ├── Jackleen Mazzawi
+   │  │  │  │  └── Samer Mazzawi
+   │  │  │  │   +Wafaa Helou Farid
+   │  │  │  │    ├── George Mazzawi
+   │  │  │  │    └── Jowel Mazzawi
+   │  │  │  ├── Diyaa Mazzawi
+   │  │  │  ├── Hajaleh Mazzawi
+   │  │  │  ├── Labibeh Mazzawi
+   │  │  │  └── Georgette Mazzawi
+   │  │  └── Najlaa Mazzawi
+   │  ├── Khalil Mazzawi
+   │  │ +Hanneh Mazzawi Nasser
+   │  │  ├── Marta Mazzawi
+   │  │  ├── Radiyeh Mazzawi
+   │  │  ├── Radi Mazzawi
+   │  │  │ +Nazha Mazzawi Sleiman
+   │  │  │  └── Khalil Mazzawi
+   │  │  ├── Maryam Mazzawi
+   │  │  └── Khalil Mazzawi
+   │  └── Nasrah Mazzawi
+   └── Yousef Mazzawi
+    +Martha Zahlan
+     ├── Elias Mazzawi
+     │ +Saadah Marche Yuseph
+     │  ├── Yousef Mazzawi
+     │  ├── Salim Mazzawi
+     │  ├── Labibah Mazzawi
+     │  ├── Boulos Mazzawi
+     │  │ +Ms. Unknown
+     │  │  └── Maryam Mazzawi
+     │  └── Boutrus Mazzawi
+     ├── Moussa Mazzawi
+     │ +Khazneh Sruji Elias
+     │  ├── Tawfik Mazzawi
+     │  │ +Bahya Tabry Ibrahim
+     │  │  ├── Botrous Mazzawi
+     │  │  ├── Mubadda Mazzawi
+     │  │  ├── Fadwa Mazzawi
+     │  │  ├── Aziz Mazzawi
+     │  │  │ +Evelyne Asfour
+     │  │  │  ├── Nabil Mazzawi
+     │  │  │  │ +Randa Bajjali
+     │  │  │  │  ├── Aziz Mazzawi
+     │  │  │  │  └── Ziad Mazzawi
+     │  │  │  ├── Norma Mazzawi
+     │  │  │  └── Bahaa Mazzawi
+     │  │  ├── Yousef Mazzawi
+     │  │  │ +Abla Halyus Naser
+     │  │  │  ├── Evette Mazzawi
+     │  │  │  ├── Randa Mazzawi
+     │  │  │  ├── Simon Mazzawi
+     │  │  │  │ +Suheila Khoury Fayez
+     │  │  │  │  ├── Yusef Mazzawi
+     │  │  │  │  ├── Kareen Mazzawi
+     │  │  │  │  └── Elias Mazzawi
+     │  │  │  ├── Rimon Mazzawi
+     │  │  │  │ +Alice Abu Shkara Farid
+     │  │  │  │  ├── Julian Mazzawi
+     │  │  │  │  ├── Maya Mazzawi
+     │  │  │  │  └── Joy Mazzawi
+     │  │  │  ├── Tony Mazzawi
+     │  │  │  │ +Samia Khoury Marjieh Zuheir
+     │  │  │  │  ├── Alber Mazzawi
+     │  │  │  │  ├── Elyana Mazzawi
+     │  │  │  │  └── Nataly Mazzawi
+     │  │  │  ├── Bahaa Mazzawi
+     │  │  │  └── Linda Mazzawi
+     │  │  ├── Rafia Mazzawi
+     │  │  └── Hanna Mazzawi
+     │  │   +Shafiah Unknown
+     │  │    ├── Tawfik Mazzawi
+     │  │    │ +Mary Helou Michel
+     │  │    │  ├── Luzian Mazzawi
+     │  │    │  ├── Hanna Mazzawi
+     │  │    │  └── Ehab Mazzawi
+     │  │    ├── Fouad Mazzawi
+     │  │    │ +Ms. Mazat
+     │  │    │  └── Fadia Mazzawi
+     │  │    └── Samir Mazzawi
+     │  │     +Fadya Helou Jeryes
+     │  │      ├── Areen Mazzawi
+     │  │      ├── Emad Mazzawi
+     │  │      └── Mirail Mazzawi
+     │  ├── Adlah Mazzawi
+     │  ├── Nazeerah Mazzawi
+     │  ├── Maryam Mazzawi
+     │  ├── Mateel Mazzawi
+     │  ├── Jameeleh Mazzawi
+     │  ├── Marta Mazzawi
+     │  └── Elias Mazzawi
+     │   +Fahdeh Unknown
+     │    ├── Shafika Mazzawi
+     │    ├── Moussa Mazzawi
+     │    ├── Marie Mazzawi
+     │    ├── Shafik Mazzawi
+     │    │ +Samia Unknown
+     │    │  ├── Nibal Mazzawi
+     │    │  ├── Eman Mazzawi
+     │    │  ├── Sawsan Mazzawi
+     │    │  ├── Manal Mazzawi
+     │    │  └── Fadi Mazzawi
+     │    ├── Menerva Mazzawi
+     │    └── Muzayan Mazzawi
+     ├── Saada Mazzawi
+     ├── Nijmeh Mazzawi
+     ├── Helaneh Mazzawi
+     └── Saadah Mazzawi

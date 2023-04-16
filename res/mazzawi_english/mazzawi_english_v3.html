@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<title>Family Tree (v3)</title>
+
+
+<style>
+
+td.s {
+	width="2%";
+}
+
+td.LB {
+	width="2%"; 
+	border-left: 3px solid #3333CC;
+	border-right-width: 3px;
+	border-top-width: 3px;
+	border-bottom: 3px solid #3333CC;
+}
+
+td.L {
+	width="2%";
+	border-left: 3px solid #3333CC; 
+	border-right-width: 3px; 
+	border-top-width: 3px; 
+	border-bottom-width: 3px;
+}
+
+</style>
+
+
+
+</head>
+
+<body  topmargin="0">
+ 
+<div style="background-color:black;color:white">Original file from:  The Wayback Machine - http://web.archive.org/web/20100825175646/http://home.mnet-online.de:80/mazzawi/mazzawi_english.html</div>
+<div style="background-color:black;color:white">&emsp; <b><i style="color:orange">version 3.0</i></b> &emsp; Edited & Improved Code by <i>Iskandar Mundher Iskandar Mazzawi </i> on April , 2023</div>
+<br/><br/>
+
+<div style="font-weight: bold;" align="left">
+<div style="text-align: center;"><big><big>The Mazzawi Family Tree</big></big><br></div>
+<span style="font-size: 18pt;"></span><span style="font-size: 16px;"><b>Collected
+ and Presented by:<br>Antoine Khalil Mazzawi (Christmas 2009 / New Year 
+2010) <br>&nbsp;</b></span>
+
+
+
+<br><big><big><br>Descendants
+ of:<br></big></big><big><big>Ibrahim Doumany [the first called MAZZAWI]
+ Mazzawi</big></big></div>
+
+
+<p align="left"></p>
+<div align="center">
+<table id="familyTable" border="0" width="100%" cellspacing="0" cellpadding="0" dir="ltr"></table>	<!-- rows loaded using script at end of the page -->
+
+<div align="left">&nbsp;&nbsp;</div>
+<div align="left"><span style="font-size: 16px;"><b>The Mazzawi Family 
+Tree<br>Collected and Presented by:<br>Antoine Khalil Mazzawi (Christmas
+ 2009 / New Year 2010) <br>&nbsp;</b></span>
+<br><br></div>
+
+
+
+</div>
+
+<div style="background-color:black;color:white">Original file from:  The Wayback Machine - http://web.archive.org/web/20100825175646/http://home.mnet-online.de:80/mazzawi/mazzawi_english.html</div>
+<div style="background-color:black;color:white">&emsp; <b><i style="color:orange">version 3.0</i></b> &emsp; Edited & Improved Code by <i>Iskandar Mundher Iskandar Mazzawi </i> on April , 2023</div>
+
+<!---------------------------------------------------------------------------------------------->
+
+<script type="text/javascript" charset="UTF-8" src="mazzawi_english_v3_table-data.js"></script>
+
+<script type="text/javascript" charset="UTF-8">
+
+function getPreText(preStr)
+{
+	var res = "";
+	var ch;
+	for(var j=0; j<preStr.length; j++)
+	{
+		ch = preStr.charAt(j);
+		if(ch==='s') res += replace_s;
+		if(ch==='B') res += replace_B;
+		if(ch==='L') res += replace_L;
+	}
+	return res;
+}
+
+function fillTableRows()
+{
+	var i;
+	var len = dataArr.length;
+	var resultStr = "";
+	var row;
+	
+	for(i=0; i < len; i++)
+	{
+		row = dataArr[i];
+		// pre-text generation
+		resultStr += "<tr>" + getPreText(row.pre);
+		
+		// add family member name , if exists in data-row
+		if (row.hasOwnProperty('txt'))
+		{
+			resultStr += "<td width=\""+row.w+"%\" colspan=\""+row.cs+"\"";
+			
+			if(row.txt.charAt(0)==='+') resultStr += ">";
+			else resultStr += " rowspan=\""+row_span+"\">";
+			
+			resultStr += "<font size=\""+font_size+"\">";
+			
+			if(row.txt.charAt(0)==='+') resultStr += text_spouse_prefix;
+			else resultStr += text_prefix;
+			
+			resultStr += row.txt;
+			resultStr += "</font></td>";
+		}
+		
+		resultStr += "</tr>";
+	}
+	
+	document.getElementById("familyTable").innerHTML = resultStr;
+}
+
+
+fillTableRows();
+
+</script>
+
+<!-- 
+Original size of mazzawi_english.html				~		2,461,983 bytes
+Size of this file, mazzawi_english_v3.html
+				+ mazzawi_english_v3_table-data.js	~		113,679 bytes
+				size reduction ratio:				~		21.66
+				
+Original total # of rows of mazzawi_english.html		~		35,759 rows
+total # of rows of this file, mazzawi_english_v3.html
+				+ mazzawi_english_v3_table-data.js	~			147 + 2446 = 2,593 rows
+				row # reduction ratio:					~		13.79
+-->
+
+</body>
+</html>
