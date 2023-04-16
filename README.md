@@ -11,3 +11,5 @@ project contains 155 images from the 2009 english language tree (that were print
 you can view the project at https://iskmz.com/MazzawiFamily/mz_tree/
 
 or download a copy for offline view from releases or from the download icon at https://iskmz.com/
+
+the downloaded project contains an additional .exe which basically runs a batch which gives options to open in browser's KIOSK / fullscreen mode (supports chrome, firefox or msedge)
