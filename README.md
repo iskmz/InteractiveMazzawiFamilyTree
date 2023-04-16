@@ -23,10 +23,15 @@ but since these important creations were lost after the closing of [mazzawi.net]
 ----------
 
 
-***
-the main idea & goal behind this project is to make an easy to navigate tree for the benefit of the Mazzawi Family members all over the world and to be a platform that the future (& current) generations could add to, change & correct information regarding their ancestry and add new family members as the years go by.
-***
+<p align="center">
+<img src="./res/icons8-tree-64.ico" width=32 height=32>&emsp;<img src="./res/icons8-tree-64.ico" width=32 height=32>&emsp;<img src="./res/icons8-tree-64.ico" width=32 height=32> </p>
 
-----------
+<p align="center"><b><i>The main idea & goal behind this project is to make an easy to navigate tree for the benefit of the Mazzawi Family members all over the world and to be a platform that the future (& current) generations could add to, change & correct information regarding their ancestry and add new family members as the years go by.</b></i></p>
 
-<img src="./res/mazzawi-family-tree-1949.png" width="50%" height="50%">
+<p align="center">
+<img src="./res/icons8-tree-64.ico" width=32 height=32>&emsp;<img src="./res/icons8-tree-64.ico" width=32 height=32>&emsp;<img src="./res/icons8-tree-64.ico" width=32 height=32>
+  </p>
+
+
+
+<p align="center"><img src="./res/mazzawi-family-tree-1949.png" width="70%" height="70%"></p>
