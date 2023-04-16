@@ -14,4 +14,4 @@ or download a copy for offline view from releases or from the download icon at h
 
 the downloaded project contains an additional .exe which basically runs a batch which gives options to open in browser's KIOSK / fullscreen mode (supports chrome, firefox or msedge)
 
-<img src="./res/mazzawi-family-tree-1949.png">
+<img src="./res/mazzawi-family-tree-1949.png" width="50%" height="50%">
