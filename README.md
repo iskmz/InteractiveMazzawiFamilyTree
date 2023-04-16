@@ -10,4 +10,4 @@ project contains 155 images from the 2009 english language tree (that were print
 
 you can view the project at https://iskmz.com/MazzawiFamily/mz_tree/
 
-or download a copy for offline view from releases or from the download icon in https://iskmz.com/
+or download a copy for offline view from releases or from the download icon at https://iskmz.com/
