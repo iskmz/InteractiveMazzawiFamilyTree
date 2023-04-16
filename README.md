@@ -18,10 +18,10 @@ the downloaded project contains an additional .exe which basically runs a batch 
 
 all rights of the drawing and the english language tree belong to their respective creators
 
-but since these important creations were lost after the closing of mazzawi.net website and after looking for them online, I was able to recover them from the wayback machine
+but since these important creations were lost after the closing of [mazzawi.net](http://mazzawi.net/) website and after looking for them online, I was able to recover them from the wayback machine mostly and from and old hdd backup drive which the drawing was stored on years ago.
 
 <b><i>
-the main idea & goal behind this project is to make an easy to navigate tree for the benefit of the Mazzawi Family members all over the world and to be a platform that the future (& current) generations could add to, change & correct information regarding their ancestry and add new family memebrs as the years go by.
+>the main idea & goal behind this project is to make an easy to navigate tree for the benefit of the Mazzawi Family members all over the world and to be a platform that the future (& current) generations could add to, change & correct information regarding their ancestry and add new family memebrs as the years go by.
   </b></i>
 
 ----------
