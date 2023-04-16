@@ -22,11 +22,10 @@ but since these important creations were lost after the closing of [mazzawi.net]
 
 ----------
 
-```
-<b><i>
+
+***
 the main idea & goal behind this project is to make an easy to navigate tree for the benefit of the Mazzawi Family members all over the world and to be a platform that the future (& current) generations could add to, change & correct information regarding their ancestry and add new family members as the years go by.
-  </b></i>
-  ```
+***
 
 ----------
 
