@@ -3,15 +3,15 @@
 
 a webpage that merges between the old [1949 drawing](./res/mazzawi-family-tree-1949.png) of the Mazzawi family tree (in arabic) , with the newer [2009 english language tree](./res/mazzawi_english)
 
-It is basically an image map of the tree that utilizes the jquery package of [maphilight](https://github.com/kemayo/maphilight) to highlight selected map areas, which when clicked upon an image of the subtree of the leaf/branch as its root opens inside a "modal" div.  The subtree is from the English language 2009 tree.
+It is basically an image map of the drawing that utilizes the jquery package of [maphilight](https://github.com/kemayo/maphilight) to highlight selected map areas, which when clicked upon an image of the subtree of the leaf/branch as its root opens inside a "modal" div.  The subtree is from the English language 2009 tree.
 
-project contains 155 images from the 2009 english language tree - that were print-screened and re-edited extensively.
+project contains 155 images from the 2009 english tree , that were print-screened and re-edited extensively.
 
-map areas' coordinates were done using the help of https://www.image-map.net/
+map areas' coordinates were generated using the help of [image-map.net](https://www.image-map.net/)
 
-view the project at https://iskmz.com/MazzawiFamily/mz_tree/  or download an offline copy from [releases](https://github.com/iskmz/InteractiveMazzawiFamilyTree/releases)
+view the project at [iskmz.com](https://iskmz.com/MazzawiFamily/mz_tree/)  or download an offline copy from [releases](https://github.com/iskmz/InteractiveMazzawiFamilyTree/releases)
 
-downloaded project contains an additional .exe which basically runs a batch which gives options to open in browser's KIOSK / fullscreen mode
+downloaded project contains an .exe which runs a batch that gives options to open in browser's KIOSK / fullscreen mode
 
 at the moment, it is viewed best at ***100% zoom on a desktop PC !***
 
