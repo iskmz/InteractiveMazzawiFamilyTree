@@ -7,9 +7,13 @@ It is basically an image map of the tree that utilizes the jquery package of [ma
 
 project contains 155 images from the 2009 english language tree - that were print-screened and re-edited extensively.
 
+map areas' coordinates were done using the help of https://www.image-map.net/
+
 view the project at https://iskmz.com/MazzawiFamily/mz_tree/  or download a copy for offline view from the [releases](https://github.com/iskmz/InteractiveMazzawiFamilyTree/releases) section
 
 downloaded project contains an additional .exe which basically runs a batch which gives options to open in browser's KIOSK / fullscreen mode
+
+at the moment, it is viewed best at ***100% zoom on a desktop PC !***
 
 ----------
 
