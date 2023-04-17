@@ -9,7 +9,7 @@ project contains 155 images from the 2009 english language tree - that were prin
 
 map areas' coordinates were done using the help of https://www.image-map.net/
 
-view the project at https://iskmz.com/MazzawiFamily/mz_tree/  or download a copy for offline view from the [releases](https://github.com/iskmz/InteractiveMazzawiFamilyTree/releases) section
+view the project at https://iskmz.com/MazzawiFamily/mz_tree/  or download an offline copy from [releases](https://github.com/iskmz/InteractiveMazzawiFamilyTree/releases)
 
 downloaded project contains an additional .exe which basically runs a batch which gives options to open in browser's KIOSK / fullscreen mode
 
