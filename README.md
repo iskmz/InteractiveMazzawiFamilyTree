@@ -7,7 +7,7 @@ It is basically an image map of the tree that utilizes the jquery package of [ma
 
 project contains 155 images from the 2009 english language tree - that were print-screened and re-edited extensively.
 
-view the project at https://iskmz.com/MazzawiFamily/mz_tree/  or download a copy for offline view from the releases section
+view the project at https://iskmz.com/MazzawiFamily/mz_tree/  or download a copy for offline view from the [releases](https://github.com/iskmz/InteractiveMazzawiFamilyTree/releases) section
 
 downloaded project contains an additional .exe which basically runs a batch which gives options to open in browser's KIOSK / fullscreen mode
 
