@@ -1,14 +1,13 @@
 # Interactive Mazzawi Family Tree
 
 
-a web project (webpage) that merges between the old [1949 drawing](./res/mazzawi-family-tree-1949.png) of the Mazzawi family tree (in arabic) , with the newer [2009 english language tree](./res/mazzawi_english)
+a webpage that merges between the old [1949 drawing](./res/mazzawi-family-tree-1949.png) of the Mazzawi family tree (in arabic) , with the newer [2009 english language tree](./res/mazzawi_english)
 
-It is basically an image map of the tree that utilizes the jquery package of [maphilight](https://github.com/kemayo/maphilight) to highlight and open an image of the subtree of the leaf/branch clicked on.  The image shown inside a "modal" div is the subtree from the English language 2009 tree that corresponds to the clicked leaf/branch (as its root).
+It is basically an image map of the tree that utilizes the jquery package of [maphilight](https://github.com/kemayo/maphilight) to highlight selected map areas, which when clicked upon an image of the subtree of the leaf/branch as its root opens inside a "modal" div.  The subtree is from the English language 2009 tree.
 
-project contains 155 images from the 2009 english language tree - that were print-screened and re-edited extensively. Each image corresponds to either a leaf or a branch (or the tree's trunk or under it which contains info about Mazzawi Family's history and origin).
+project contains 155 images from the 2009 english language tree - that were print-screened and re-edited extensively.
 
-
-view the project at https://iskmz.com/MazzawiFamily/mz_tree/  or download a copy for offline view from the releases section or from the download icon at https://iskmz.com/
+view the project at https://iskmz.com/MazzawiFamily/mz_tree/  or download a copy for offline view from the releases section
 
 downloaded project contains an additional .exe which basically runs a batch which gives options to open in browser's KIOSK / fullscreen mode
 
