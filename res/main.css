@@ -1,0 +1,91 @@
+@media (pointer: coarse), (hover: none) {
+	  [title] {
+		position: relative;
+		display: inline-flex;
+		justify-content: center;
+	  }
+	  [title]:focus::after {
+		content: attr(title);
+		position: absolute;
+		top: 90%;
+		color: #000;
+		background-color: #fff;
+		border: 1px solid;
+		width: fit-content;
+		padding: 3px;
+	  }
+}
+	
+/* The Modal (background) */
+.modal {
+  display: none; 	/* Hidden by default */
+  position: fixed; 	/* Stay in place */
+  z-index: 1; 		/* Sit on top */
+  padding-top: 25px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #ffffff;
+  opacity: 0.8;
+  margin: auto;
+  padding: 20px;
+  border: 2px dashed #000;
+  border-radius: 8px;
+  width: fit-content;
+  block-size: fit-content;
+  overflow: auto;
+  max-width: 95%;
+  max-height: 95%;
+}
+
+div.lang-tab { background-color:#000000; float:left;   width:64px;   height:32px;  border-radius: 0px 0px 12px 0px; }
+div.lang-tab:hover { background-color:#ffffff;  border: 4px solid #000000; }
+div.lang-tab > a { color:#ffffff; text-decoration:none; }
+div.lang-tab:hover > a { color:#000000; }
+
+#mz1949img { position:absolute;  bottom:0; left:0; z-index:0; }
+
+#btnMagnifier {  position:absolute; bottom:1464px; right:998px;  z-index:1;  
+				width:40px; 
+				height:40px; 
+				cursor:pointer; 
+				border:1px solid blue; 
+				border-radius: 4px; 
+				padding: 4px; 
+			}
+				
+#showhidebtn {  
+	font-size:20px;
+	background-color:#000000;
+	color:yellow;float:right;
+	width:fit-content;
+	height:fit-content;
+	padding:2px;
+	cursor: pointer;
+	border-radius:0px 0px 0px 4px;
+}
+
+#showhidebtn2 {
+	font-size:20px;
+	color:yellow;
+	float:right; 
+	width:fit-content; 
+	height:fit-content;
+	padding:2px;
+	cursor: pointer; 
+	border-radius:4px 0px 0px 0px;
+}
+
+#btnAllHighlights { 
+	font-weight:bold;
+	border: 2px solid #111177;
+	border-radius: 8px;
+	padding: 4px;
+	cursor:pointer 
+}
