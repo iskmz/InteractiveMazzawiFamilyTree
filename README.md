@@ -41,3 +41,9 @@ they were recovered from the apparently closed [mazzawi.net](http://mazzawi.net/
 ----------
 
 ### Updates
+
+<b>2023-04-25</b>
++ added arabic version for all sub-trees, which includes additional 155 images translated to arabic , all found in [ar](./ar)
++ improved appearance of header and footer, with an option to show/hide them (using some jquery magic)
++ added magnifier glass to use on the drawing , credits to [w3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_magnifier_glass)
++ improved and re-organized code: more files, much less lines.  separate .js and .css files.  removing duplicates as much as possible.  all raw map_data is in one .js file now.
