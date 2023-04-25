@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> شجرة عائلة المزاوي </title>
+
+<meta name="description" content="شجرة عائلة المزاوي - 1949 , الناصرة  ;  Mazzawi Family Tree - 1949 , Nazareth ; Interactive Mazzawi Tree ; Mazzawi ; Family ; Tree ; 1949 ; 2009 ; 2023">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=UTF-8"/>
+<meta charset="UTF-8">
+
+<link rel="icon" type="image/x-icon" href="../res/icons8-tree-64.ico">
+<link rel="stylesheet" href="../res/main.css">
+<link rel="stylesheet" href="../res/magnifier.css">
+
+<script type="text/javascript" src="../res/jquery-3.3.1.min.js"></script>		<!-- LICENSE at:  ../res/LICENSE_jquery.txt 		-->
+<script type="text/javascript" src="../res/jquery.maphilight.min.js"></script>	<!-- LICENSE at:  ../res/LICENSE_maphilight.txt 	-->
+<script type="text/javascript">
+    $(function () {
+        $('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: false });
+    });
+</script>
+	
+</head>
+
+<!-------------------------------------------------------------------------------->
+
+<body bgcolor="#aaccef" style="text-align:center"  topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" dir="rtl">
+
+
+<div id="header" style="background-color:#000000;color:white; font-family: monospace; font-size: 14px; padding: 8px">
+viewed best at <b style="color:red">100%</b> zoom on a <b style="color:red">desktop</b> PC 
+&nbsp;&#9482;&nbsp; press <b style="color:yellow"><u>F11</u></b> for full-screen , <b style="color:yellow"><u>ALT+F4</u></b> to quit 
+&nbsp;&#9482;&nbsp; <b style="color:orange">hover</b> over a leaf/branch to highlight , <b style="color:orange">click</b> to show subTree
+</div>
+
+<div id="showhidebtn">&#9650;</div>
+
+<div id="header_lang" class="lang-tab">
+<a style="font-size:18px" href="../index.html" title="back to English version"><b>English</b></a>
+</div>
+<br/>
+<br/>
+
+<h1>شـجـرة عـائـلـة الــمــزاوي</h1>
+<b style="color:#3333bb"><h3> دمج بين
+<a style="color:#3333bb" href="../res/mazzawi-family-tree-1949.png" target="_blank">الرسمة سنة 1949</a> و بين 
+<a style="color:#3333bb" href="../res/mazzawi_english/mazzawi_english_v3.html" target="_blank">الشجرة سنة 2009 بالانجليزية</a>
+بعد ترجمتها للعربية </h3></b>
+<br/>
+
+<!-- img width & height MUST stay fixed , so that map works consistenly while zooming in & out. DO NOT CHANGE! -->
+<div class="imageContainer" align="center">
+	<div class="img-magnifier-container" style="width:fit-content">
+		<img id="btnMagnifier" src="../res/magnifier.png" onclick="toggleMagnifier();"/>
+		<img id="mz1949img" src="../res/mazzawi-family-tree-1949.png" alt="1949 شجرة عائلة المزاوي" width=1000 height=1466 usemap="#treeMap" class="map"/>
+	</div>
+	<br/>
+	<input id="btnAllHighlights" type="button" value="عرض الكل" style="font-size:20px"/>
+</div>
+<br/>
+
+<!-- coordinates done using https://www.image-map.net/  ... had to resize original image file to 1000x1466 to get exact ones! -->
+<!-- loaded from map_data.js , on page load -->
+<map id="treeMap" name="treeMap">
+</map> 
+
+
+<!-- modal -->
+<div id="subTree" class="modal"> 
+	<div class="modal-content">
+		<h3 id="modalTitle"></h3>
+		<img id="modalImg" src="#"/>
+	</div>
+</div>
+
+
+<div id="showhidebtn2" style="background-color:#000000">&#9660;</div>
+<br/>
+
+<div id="footer" dir="rtl" style="background-color:#000000;color:white; font-family: sans-serif; padding: 4px">
+برمجة:&ensp;
+<span style="color:orange">اسكندر منذر اسكندر مزاوي</span>
+&emsp;&#9482;&emsp;
+آخر تحديث:&ensp;
+<span style="color:yellow">2023.04.25 , 11:11</span>
+&emsp;&#9482;&emsp;
+للتواصل:&ensp;
+<a style="color:orange" href="mailto:iskmz@hotmail.com">iskmz@hotmail.com</a>
+&nbsp;<a style="color:white;text-decoration:none" title="نسخ البريد" alt="copy-mail" href="" onclick="copyMail();return false">&#10064;</a>
+</div>
+
+
+<!-------------------------------------------------------------------------------->
+
+<script type="text/javascript" charset="UTF-8" src="../res/map_data.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../res/magnifier.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../res/main.js"></script>
+<script type="text/javascript" charset="UTF-8">
+/*
+idea for future development:- 
+in order to continue adding members to advanced branches & leaves , 
+could replace .png <img> inside <modal-content>
+with a "Bootstrap Carousel" [https://www.w3schools.com/bootstrap/bootstrap_carousel.asp] .
+in "alt" property , instead of .png , remove extension to get into folder which contains
+all the images to build the carousel from , and a text file which contains the img-names list to load into carousel.
+could start all the carousel element building process using j.s. dynamically , when NOT detecting .png in "alt"
+[i.e. remove <img> tag inside <modal-content> and replace it with a carousel "div" and build everything inside from the "text" file
+otherwise, if .png is detected inside "alt", then should continue loading the single img as is done now
+*/
+</script>
+
+</body>
+</html>
