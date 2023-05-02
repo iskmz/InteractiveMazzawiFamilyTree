@@ -47,3 +47,8 @@ they were recovered from the apparently closed [mazzawi.net](http://mazzawi.net/
 + improved appearance of header and footer, with an option to show/hide them (using some jquery magic)
 + added magnifier glass to use on the drawing , credits to [w3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_magnifier_glass)
 + improved and re-organized code: more files, much less lines.  separate .js and .css files.  removing duplicates as much as possible.  all raw map_data is in one .js file now.
+
+<b>2023-05-01</b>
++ changed relative position & style of magnifier button & show/hide highlights button with some changes in code (visibility instead of disable)
++ added full-screen option via a button in the top-right corner of the tree-image
+
