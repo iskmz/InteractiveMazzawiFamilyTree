@@ -37,19 +37,19 @@ function handleToggleBtn(e)
 {
 	if(show)
 	{
+		document.getElementById("btnMagnifier").style.visibility="visible"; // show magnifier button 
 		$(function () {
 			$('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: false });
 		});
-		if(location.pathname.indexOf("_ar.html")!=-1) btnToggle.setAttribute('value',show_value_ar);
-		else btnToggle.setAttribute('value',show_value_eng);
+		btnToggle.setAttribute('value',(location.pathname.indexOf("_ar.html")!=-1)?show_value_ar:show_value_eng);
 	}
 	else
 	{
+		document.getElementById("btnMagnifier").style.visibility="hidden"; // hide magnifier button
 		$(function () {
 			$('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: true });
 		});
-		if(location.pathname.indexOf("_ar.html")!=-1) btnToggle.setAttribute('value',hide_value_ar);
-		else btnToggle.setAttribute('value',hide_value_eng);
+		btnToggle.setAttribute('value',(location.pathname.indexOf("_ar.html")!=-1)?hide_value_ar:hide_value_eng);
 	}
 	show=!show;
 }
@@ -131,3 +131,52 @@ function toggleMagnifier() {
 	else  { magnifyTree(); btnMag.style.backgroundColor="orange"; }
 	isMagnified = !isMagnified;
 }
+
+
+// Fullscreen functionality START >>>
+
+function hideAllAround() {
+	document.getElementById("full_header").style.display="none";
+	document.getElementById("title").style.display="none";
+	document.getElementById("full_footer").style.display="none";
+}
+
+function showAllAround() {
+	document.getElementById("full_header").style.display="initial";
+	document.getElementById("title").style.display="initial";
+	document.getElementById("full_footer").style.display="initial";
+}
+
+// SOURCE:	https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_fullscreen2
+var elemDoc = document.documentElement;
+function openFullScr() {
+	if (elemDoc.requestFullscreen) { elemDoc.requestFullscreen(); } 
+	else if (elemDoc.webkitRequestFullscreen) {   elemDoc.webkitRequestFullscreen(); } // Safari
+	else if (elemDoc.msRequestFullscreen) { elemDoc.msRequestFullscreen(); } // IE11
+}
+function exitFullScr() {
+	if (document.exitFullscreen) { document.exitFullscreen(); }
+	else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }  // Safari 
+	else if (document.msExitFullscreen) { document.msExitFullscreen();  }  // IE11
+}
+
+// SOURCE:	https://developer.mozilla.org/en-US/docs/Web/API/Element/fullscreenchange_event
+elemDoc.addEventListener("fullscreenchange", fullscreenchanged);
+function fullscreenchanged(event) {
+  if (document.fullscreenElement) 
+  {
+	  hideAllAround();
+	  document.getElementById("btnFullscreen").setAttribute('src', ((location.pathname.indexOf("_ar.html")!=-1)? '.' : '') + ('./res/full_screen_exit.png'));
+  }
+  else 
+  {
+	  showAllAround();
+	  document.getElementById("btnFullscreen").setAttribute('src', ((location.pathname.indexOf("_ar.html")!=-1)? '.' : '') + ('./res/full_screen.png'));
+  }
+}
+
+function toggleFullscreen(){
+	if(document.fullscreenElement) exitFullScr(); else openFullScr();
+}
+
+// <<< Fullscreen functionality END 
