@@ -5,11 +5,11 @@ var magnifier_created = false;
 const zoom_default = 2.5;
 const img_id_default = "mz1949img";
 const btn_highlights_id = "btnAllHighlights";
-const safety_margin = 25; // for btnMagnifier at TopLeft corner of image // 
+const safety_margin = 25+40; // for btnMagnifier at TopLeft corner of image (+40 for btnMagnifier dimensions) // 
 
 function magnifyTree() { 
 	document.getElementById(img_id_default).setAttribute('usemap',"" ); // stop using map 1st
-	document.getElementById(btn_highlights_id).setAttribute("disabled",""); // and disable show-hide highlights button
+	document.getElementById(btn_highlights_id).style.visibility="hidden"; // and hide show-hide highlights button
 	magnify(img_id_default, zoom_default);  // magnify
 }
 
@@ -81,5 +81,5 @@ function demagnify()
 	var glass = document.getElementsByClassName("img-magnifier-glass");
     glass[0].style.display = 'none';
 	document.getElementById(img_id_default).setAttribute('usemap',"#treeMap"); // return to using map
-	document.getElementById(btn_highlights_id).removeAttribute("disabled"); // and re-enable show-hide highlights button
+	document.getElementById(btn_highlights_id).style.visibility="visible"; // and SHOW show-hide highlights button
 }
