@@ -28,37 +28,39 @@
 
 <body bgcolor="#aaccef" style="text-align:center" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
 
-<div id="header" style="background-color:#000000;color:white; font-family: monospace; font-size: 14px; padding: 8px">
-viewed best at <b style="color:red">100%</b> zoom on a <b style="color:red">desktop</b> PC 
-&nbsp;&#9482;&nbsp; press <b style="color:yellow"><u>F11</u></b> for full-screen , <b style="color:yellow"><u>ALT+F4</u></b> to quit 
-&nbsp;&#9482;&nbsp; <b style="color:orange">hover</b> over a leaf/branch to highlight , <b style="color:orange">click</b> to show subTree
+<div id="full_header">
+	<div id="header" style="background-color:#000000;color:white; font-family: monospace; font-size: 14px; padding: 8px">
+	viewed best at <b style="color:red">100%</b> zoom on a <b style="color:red">desktop</b> PC 
+	&nbsp;&#9482;&nbsp; <b style="color:orange">hover</b> over a leaf/branch to highlight , <b style="color:orange">click</b> to show subTree
+	</div>
+
+	<div id="showhidebtn">&#9650;</div>
+
+	<div id="header_lang" class="lang-tab">
+	<a style="font-size:20px" href="./ar/index_ar.html" title="نسخة باللغة الـعـربـيـة"><b>عـربـي</b></a>
+	</div>
+	<br/>
+	<br/>
 </div>
 
-<div id="showhidebtn">&#9650;</div>
-
-<div id="header_lang" class="lang-tab">
-<a style="font-size:20px" href="./ar/index_ar.html" title="نسخة باللغة الـعـربـيـة"><b>عـربـي</b></a>
+<div id="title">
+	<h2>Interactive Mazzawi Family Tree</h2>
+	<i style="color:#3333bb"><h3> a merger of the 
+	<a style="color:#3333bb" href="./res/mazzawi-family-tree-1949.png" target="_blank">1949 drawing</a> & the 
+	<a style="color:#3333bb" href="./res/mazzawi_english/mazzawi_english_v3.html" target="_blank">2009 english language tree</a>
+	</h3></i>
+	<br/>
 </div>
-<br/>
-<br/>
-
-<h2>Interactive Mazzawi Family Tree</h2>
-<i style="color:#3333bb"><h3> a merger of the 
-<a style="color:#3333bb" href="./res/mazzawi-family-tree-1949.png" target="_blank">1949 drawing</a> & the 
-<a style="color:#3333bb" href="./res/mazzawi_english/mazzawi_english_v3.html" target="_blank">2009 english language tree</a>
-</h3></i>
-<br/>
 
 <!-- img width & height MUST stay fixed , so that map works consistenly while zooming in & out. DO NOT CHANGE! -->
-<div class="imageContainer" align="center">
+<div id="imgContainer" class="imageContainer" align="center">
 	<div class="img-magnifier-container" style="width:fit-content">
 		<img id="btnMagnifier" src="./res/magnifier.png" onclick="toggleMagnifier();"/>
 		<img id="mz1949img" src="./res/mazzawi-family-tree-1949.png" alt="Mazzawi Family Tree 1949 شجرة عائلة المزاوي" width=1000 height=1466 usemap="#treeMap" class="map"/>
+		<input id="btnAllHighlights" type="button" value="Show All Highlights" style="font-size:16px"/>
+		<img id="btnFullscreen" src="./res/full_screen.png" onclick="toggleFullscreen();"/>
 	</div>
-	<br/>
-	<input id="btnAllHighlights" type="button" value="Show All Highlights" style="font-size:16px"/>
 </div>
-<br/>
 
 <!-- coordinates done using https://www.image-map.net/  ... had to resize original image file to 1000x1466 to get exact ones! -->
 <!-- loaded from map_data.js , on page load -->
@@ -74,23 +76,25 @@ viewed best at <b style="color:red">100%</b> zoom on a <b style="color:red">desk
 	</div>
 </div>
 
-<div id="showhidebtn2" style="background-color:#111133">&#9660;</div>
-<br/>
 
-<div id="footer" style="background-color:#111133;color:white; font-family: monospace; font-size: 16px; padding: 4px">
-for feedback, suggestions, corrections or additions , please contact me: 
-<a style="color:orange" href="mailto:iskmz@hotmail.com"><i>iskmz@hotmail.com</i></a>
-&nbsp;<a style="color:white;text-decoration:none" title="copy mail to clipboard" alt="copy-mail" href="" onclick="copyMail();return false">&#10064;</a>
+<div id="full_footer">
+	<div id="showhidebtn2" style="background-color:#111133">&#9660;</div>
+	<br/>
+
+	<div id="footer" style="background-color:#111133;color:white; font-family: monospace; font-size: 16px; padding: 4px">
+	for feedback, suggestions, corrections or additions , please contact me: 
+	<a style="color:orange" href="mailto:iskmz@hotmail.com"><i>iskmz@hotmail.com</i></a>
+	&nbsp;<a style="color:white;text-decoration:none" title="copy mail to clipboard" alt="copy-mail" href="" onclick="copyMail();return false">&#10064;</a>
+	</div>
+
+	<div id="footer2" style="background-color:#000000;color:white; font-family: monospace; font-size: 16px; padding: 8px">
+	programming by: <span style="color:orange">Iskandar Mundher Iskandar Mazzawi</span>
+	&emsp;&#9482;&emsp;
+	started: April, 2023
+	&emsp;&#9482;&emsp;
+	last update: <span style="color:yellow">2023.05.01 , 11:11</span>
+	</div>
 </div>
-
-<div id="footer2" style="background-color:#000000;color:white; font-family: monospace; font-size: 16px; padding: 8px">
-programming by: <span style="color:orange">Iskandar Mundher Iskandar Mazzawi</span>
-&emsp;&#9482;&emsp;
-started: April, 2023
-&emsp;&#9482;&emsp;
-last update: <span style="color:yellow">2023.04.25 , 11:11</span>
-</div>
-
 
 <!-------------------------------------------------------------------------------->
 
