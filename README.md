@@ -52,3 +52,11 @@ they were recovered from the apparently closed [mazzawi.net](http://mazzawi.net/
 + changed relative position & style of magnifier button & show/hide highlights button with some changes in code (visibility instead of disable)
 + added full-screen option via a button in the top-right corner of the tree-image
 
+<b>2023-05-19</b>
++ added 'submaps': for each element of the 155;  'submaps' are mini-image-maps for each image out of the 155, to connect all of them together so that user could browse them faster, by clicking on a parent or a son/daughter, instead of going back to main drawing everytime.
++ added alternate-trees, both in english and arabic, which are basically a simpler version, based on submaps, that browses the family tree without a drawing to begin with. Instead, it starts from about_family image and continues upward along the tree.
++ added a 'trace' top-bar for the alternate trees, so that user could jump back many levels at once along the ancestry travelled. 
++ improved buttons, icons and styles
+
+<i>plan for the near future is to further expand 'submaps' feature, to add MORE desendants' leaves that are not directly reachable from drawing, thus opening a way for a simple future expansion of the tree as more data is collected.</i>
+
