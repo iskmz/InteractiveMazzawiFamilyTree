@@ -1,10 +1,102 @@
-const show_value_ar="عرض الكل";
-const hide_value_ar="اخفاء الكل";
+
+// code block to add / remove subMaps and handle their click events // >>>>>>>>> //
+
+const subMapDiv = document.getElementById("div_subMap");
+const modalImgDiv = document.getElementById("div_modalImg");
+const modalTitle = document.getElementById("modalTitle");
+const imgBulb = document.getElementById("lightBulb");
+
+const highlights_submap_default = {strokeColor: 'ffaa00', fillColor: 'ffff00', alwaysOn: false};
+const highlights_submap_AllOn = {strokeColor: 'ffaa00', fillColor: 'ffff00', alwaysOn: true};
+
+function addSubMap(smapArr)
+{
+	// build map's area tags from smapArr data //
+	var areasStr="",curr,coords, isArabic=(location.pathname.indexOf("_ar.html")!=-1);
+	const titleAttr = " title=\"&#11165; "+(isArabic? "إلى الأعلى (الأب)":"go to parent (upwards)")+" &#11165;\"";
+	const pPre=" alt=\"", pPost="\" ";
+	var pText;
+	for(var i=0; i<smapArr.length; i++)
+	{
+		pText="";
+		curr = smapArr[i];
+		coords = (isArabic)? curr.c_ar : curr.c_en;
+		if(curr.hasOwnProperty("p")) pText = pPre + curr.p + pPost;
+		areasStr += "<area shape=\"rect\" coords=\""+coords+"\" href=\"#"+curr.i+"\""+ (i==0? titleAttr:"") + pText +">";
+	}
+	subMapDiv.firstElementChild.innerHTML = areasStr;
+	// adjust maphilight for different settings for subMap areas //
+	$(function () { $('.map').maphilight(highlights_default); });
+	var areas = subMapDiv.firstElementChild.children;
+	for(var i=0; i<areas.length; i++)
+	{
+		$(areas[i]).data('maphilight', highlights_submap_default);
+	}
+	// add event listener to handle clicks on areas 
+	subMapDiv.firstElementChild.addEventListener("click",handleSubMapClick,false);
+	// add event listeners for light-bulb mouse-over-out events 
+	imgBulb.removeAttribute("hidden");
+	imgBulb.addEventListener("mouseover", highlightSubMap, false);
+	imgBulb.addEventListener("mouseout", unhilightSubMap, false);
+	function highlightSubMap()
+	{
+		$(function () { $('.map').maphilight(highlights_default); });
+		for(var i=0; i<areas.length; i++) { $(areas[i]).data('maphilight', highlights_submap_AllOn); }
+	}
+	function unhilightSubMap()
+	{
+		$(function () { $('.map').maphilight(highlights_default); });
+		for(var i=0; i<areas.length; i++) { $(areas[i]).data('maphilight', highlights_submap_default); }
+	}
+}
+
+function handleSubMapClick(e)
+{
+	e.preventDefault();
+	if (e.target != e.currentTarget) 
+	{
+		// get index of clicked area //
+		var index = Number(e.target.getAttribute('href').substring(1)); // to discard # at pos=0 // 
+		
+		// clear current subMap & modalImg & modalTitle elements
+		clearModalElements();
+		
+		// next build new modal title , img, and submap (if exists)
+		
+		if (location.pathname.indexOf("_ar.html")==-1) 
+			document.getElementById("modalTitle").innerHTML = dataArr[index].eng + "&nbsp;";
+		document.getElementById("modalTitle").innerHTML += dataArr[index].ar;
+		
+		document.getElementById("modalImg").setAttribute('src',dataArr[index].path);
+		
+		if(dataArr[index].hasOwnProperty("smap")) addSubMap(dataArr[index].smap);
+	}
+	e.stopPropagation();
+}
+
+function clearModalElements()
+{
+	subMapDiv.firstElementChild.innerHTML = "";
+	modalImgDiv.removeChild(modalImgDiv.firstElementChild); // <img> wrapper <div> and <canvas> created by maphilight !!! // 
+	modalImgDiv.innerHTML = "<img id=\"modalImg\" src=\"#\" usemap=\"#subMap\" class=\"map\"/>";
+	modalTitle.innerHTML = "";
+	imgBulb.setAttribute("hidden","");
+}
+
+
+
+// END // code block to add / remove subMaps and handle their click events // <<<<<<<< //
+
+
+const show_value_ar="عــرض الــــكــل";
+const hide_value_ar="اخــفـاء الــــكــل";
 const show_value_eng="Show All Highlights";
 const hide_value_eng="Hide All Highlights";
 
+
 var modal = document.getElementById("subTree");
 var map = document.getElementById("treeMap");
+
 
 // event listener to map-area click --> load correct image & open the modal to show it // 
 map.addEventListener("click",handleMapClick,false); 
@@ -13,9 +105,11 @@ function handleMapClick(e)
 	e.preventDefault();
 	if (e.target != e.currentTarget) 
 	{
-		if(e.target.getAttribute('href')!=="#") return; // do nothing when non-links are clicked // for e.g. "cut-branches" // 
+		if(e.target.getAttribute('href')[0]!=="#") return; // do nothing when non-links are clicked // for e.g. "cut-branches" // 
 		document.getElementById("modalTitle").innerHTML = e.target.getAttribute('title');
 		document.getElementById("modalImg").setAttribute('src',e.target.getAttribute('alt'));
+		var index = Number(e.target.getAttribute('href').substring(1)); // to discard # at pos=0 // 
+		if(dataArr[index].hasOwnProperty("smap")) addSubMap(dataArr[index].smap);
 	}
 	e.stopPropagation();
 	modal.style.display = "block";
@@ -26,6 +120,7 @@ function handleMapClick(e)
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+	clearModalElements();
   }
 }
 
@@ -38,18 +133,16 @@ function handleToggleBtn(e)
 	if(show)
 	{
 		document.getElementById("btnMagnifier").style.visibility="visible"; // show magnifier button 
-		$(function () {
-			$('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: false });
-		});
-		btnToggle.setAttribute('value',(location.pathname.indexOf("_ar.html")!=-1)?show_value_ar:show_value_eng);
+		$(function () { $('.map').maphilight(highlights_default); });
+		btnToggle.setAttribute('title',(location.pathname.indexOf("_ar.html")!=-1)?show_value_ar:show_value_eng);
+		btnToggle.style.backgroundColor = "";
 	}
 	else
 	{
 		document.getElementById("btnMagnifier").style.visibility="hidden"; // hide magnifier button
-		$(function () {
-			$('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: true });
-		});
-		btnToggle.setAttribute('value',(location.pathname.indexOf("_ar.html")!=-1)?hide_value_ar:hide_value_eng);
+		$(function () { $('.map').maphilight(highlights_AllOn); });
+		btnToggle.setAttribute('title',(location.pathname.indexOf("_ar.html")!=-1)?hide_value_ar:hide_value_eng);
+		btnToggle.style.backgroundColor = "#00ff00";
 	}
 	show=!show;
 }

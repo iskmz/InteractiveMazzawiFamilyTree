@@ -1,6 +1,8 @@
 /* SOURCE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_magnifier_glass */
 .img-magnifier-container {
 	position:relative;
+	border: 4px solid #000;
+	border-radius: 5px;
 }
 .img-magnifier-glass {
   position: absolute;
