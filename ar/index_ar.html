@@ -17,9 +17,9 @@
 <script type="text/javascript" src="../res/jquery-3.3.1.min.js"></script>		<!-- LICENSE at:  ../res/LICENSE_jquery.txt 		-->
 <script type="text/javascript" src="../res/jquery.maphilight.min.js"></script>	<!-- LICENSE at:  ../res/LICENSE_maphilight.txt 	-->
 <script type="text/javascript">
-    $(function () {
-        $('.map').maphilight({ fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: false });
-    });
+	const highlights_default = {fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: false };
+	const highlights_AllOn = {fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: true };
+    $(function () { $('.map').maphilight(highlights_default); });
 </script>
 	
 </head>
@@ -44,35 +44,39 @@
 </div>
 
 <div id="title">
+	<br/>
 	<h1>شـجـرة عـائـلـة الــمــزاوي</h1>
 	<b style="color:#3333bb"><h3> دمج بين
-	<a style="color:#3333bb" href="../res/mazzawi-family-tree-1949.png" target="_blank">الرسمة سنة 1949</a> و بين 
-	<a style="color:#3333bb" href="../res/mazzawi_english/mazzawi_english_v3.html" target="_blank">الشجرة سنة 2009 بالانجليزية</a>
+	<a id="link1949" style="color:#3333bb" href="../res/mazzawi-family-tree-1949.png" target="_blank">الرسمة سنة 1949</a> و بين 
+	<a id="link2009" style="color:#3333bb" href="../res/mazzawi_english/mazzawi_english_v3.html" target="_blank">الشجرة سنة 2009 بالانجليزية</a>
 	بعد ترجمتها للعربية </h3></b>
 	<br/>
 </div>
 
 <!-- img width & height MUST stay fixed , so that map works consistenly while zooming in & out. DO NOT CHANGE! -->
-<div class="imageContainer" align="center">
+<div id="imgContainer" class="imageContainer" align="center">
 	<div class="img-magnifier-container" style="width:fit-content">
 		<img id="btnMagnifier" src="../res/magnifier.png" onclick="toggleMagnifier();"/>
 		<img id="mz1949img" src="../res/mazzawi-family-tree-1949.png" alt="1949 شجرة عائلة المزاوي" width=1000 height=1466 usemap="#treeMap" class="map"/>
-		<input id="btnAllHighlights" type="button" value="عرض الكل" style="font-size:20px"/>
+		<img id="btnAllHighlights" src="../res/highlight_pen.png" title="عــرض الــــكــل" />
+		<!-- <input id="btnAllHighlights" type="button" value="عــرض الــــكــل" style="font-size:20px"/>  --> <!-- previous alternate 'text' button -->
 		<img id="btnFullscreen" src="../res/full_screen.png" onclick="toggleFullscreen();"/>
+		<img id="altTreeIcon" src="../res/blue_tree.ico" title="شجرة بديلة بدون رسمة" onclick="goToAlt();"/>
 	</div>
 </div>
 
 <!-- coordinates done using https://www.image-map.net/  ... had to resize original image file to 1000x1466 to get exact ones! -->
 <!-- loaded from map_data.js , on page load -->
-<map id="treeMap" name="treeMap">
-</map> 
+<map id="treeMap" name="treeMap"></map> 
 
 
 <!-- modal -->
 <div id="subTree" class="modal"> 
 	<div class="modal-content">
 		<h3 id="modalTitle"></h3>
-		<img id="modalImg" src="#"/>
+		<img id="lightBulb" src="../res/bulb.png" hidden/>
+		<div id="div_modalImg"><img id="modalImg" src="#" usemap="#subMap" class="map"/></div>
+		<div id="div_subMap"><map id="subMap" name="subMap"></map></div>
 	</div>
 </div>
 
@@ -86,7 +90,7 @@
 	<span style="color:orange">اسكندر منذر اسكندر مزاوي</span>
 	&emsp;&#9482;&emsp;
 	آخر تحديث:&ensp;
-	<span style="color:yellow">2023.05.01 , 11:11</span>
+	<span style="color:yellow" id="lastUpdate"></span> <!-- updated from const in map_data.js -->
 	&emsp;&#9482;&emsp;
 	للتواصل:&ensp;
 	<a style="color:orange" href="mailto:iskmz@hotmail.com">iskmz@hotmail.com</a>
@@ -100,6 +104,11 @@
 <script type="text/javascript" charset="UTF-8" src="../res/magnifier.js"></script>
 <script type="text/javascript" charset="UTF-8" src="../res/main.js"></script>
 <script type="text/javascript" charset="UTF-8">
+
+function goToAlt() {
+	window.open("alt_index_ar.html","_self");
+}
+
 /*
 idea for future development:- 
 in order to continue adding members to advanced branches & leaves , 
