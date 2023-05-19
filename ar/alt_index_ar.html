@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+
+<title> شجرة عائلة المزاوي </title>
+
+<meta name="description" content="شجرة عائلة المزاوي - 1949 , الناصرة  ;  Mazzawi Family Tree - 1949 , Nazareth ; Interactive Mazzawi Tree ; Mazzawi ; Family ; Tree ; 1949 ; 2009 ; 2023">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=UTF-8"/>
+<meta charset="UTF-8">
+
+<link rel="icon" type="image/x-icon" href="../res/blue_tree.ico">
+<link rel="stylesheet" href="../res/main.css">
+
+<script type="text/javascript" src="../res/jquery-3.3.1.min.js"></script>		<!-- LICENSE at:  ../res/LICENSE_jquery.txt 		-->
+<script type="text/javascript" src="../res/jquery.maphilight.min.js"></script>	<!-- LICENSE at:  ../res/LICENSE_maphilight.txt 	-->
+<script type="text/javascript">
+const highlights_submap_default = {strokeColor: '00ff00', fillColor: '008800', shadow : true, shadowRadius: 11 , alwaysOn: false};
+const highlights_submap_AllOn = {strokeColor: '00ff00', fillColor: '008800', shadow : true, shadowRadius: 11 , alwaysOn: true};
+    $(function () { $('.map').maphilight(highlights_submap_default); });
+</script>
+	
+</head>
+
+<!-------------------------------------------------------------------------------->
+
+<body bgcolor="#fff" style="text-align:center">
+
+<!-- ancestry trace div -->
+<div id="trace" dir="rtl" style="text-align:right"><a class="traceLink" onclick="linkClick(this,0)" href="#0">*</a></div>
+
+<div id="alt_lang" class="alt-lang-tab" style="float:right;right:8px;">
+	<a style="font-size:18px;" href="../alt_index.html" title="alternate tree in English"><b>English</b></a>
+</div>
+
+<div id="back" style="float:right;right:8px;"><img id="mainTreeIcon" src="../res/icons8-tree-64.ico" title="العودة إلى الرسمة" onclick="goBack();"/></div>
+
+<!-- modal -->
+<div id="subTree" class="modal"> 
+	<div id="subTreeContent" class="modal-content">
+		<h3 id="modalTitle"></h3>
+		<img id="lightBulb" src="../res/bulb.png" hidden/>
+		<div id="div_modalImg"><img id="modalImg" src="#" usemap="#subMap" class="map"/></div>
+		<div id="div_subMap"><map id="subMap" name="subMap"></map></div>
+	</div>
+</div>
+
+<div id="alt_footer" dir="rtl" style="text-align:right;	right:0px;">
+	<span style="color:blue"><a id="linkSpecial" onclick="gotoSpecial();" href="####">اسكندر منذر اسكندر مزاوي</a></span>
+	&nbsp;&#9482;&nbsp;
+	<span style="color:green" id="lastUpdate"></span> <!-- updated from const in map_data.js -->
+	&nbsp;&#9482;&nbsp;
+	<a style="color:blue" href="mailto:iskmz@hotmail.com">iskmz@hotmail.com</a>
+	&nbsp;<a style="color:black;text-decoration:none" title="نسخ البريد" alt="copy-mail" href="" onclick="copyMail();return false">&#10064;</a>
+</div>
+
+<!-------------------------------------------------------------------------------->
+
+<script type="text/javascript" charset="UTF-8" src="../res/map_data.js"></script>
+
+<script type="text/javascript" charset="UTF-8" src="../res/main_alt.js"></script>
+
+<script type="text/javascript" charset="UTF-8">
+
+function goBack() { window.open("index_ar.html","_self"); }
+loadAbout();
+
+</script>
+
+</body>
+</html>
