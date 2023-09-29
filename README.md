@@ -61,7 +61,7 @@ they were recovered from the apparently closed [mazzawi.net](http://mazzawi.net/
 <b>2023-09-29</b>
 + fixed issue with 'traceArrow' glyph (used in alternate trees) , which was not supported on Android mobile/TV fonts , by adding free font 'Symbola.ttf' to take the glyph from 
 + added feature in main tree pages: that when clicking a leave/branch all its ancestry is highlighted up to Ibrahim al doumany ; and when clicking out of the modal it is hidden again. Also added this to submaps inside modals, so that highlighted ancestry in the drawing (background) moves along the clicked areas in the modal.
-+ madel modal-content draggable , using jquery-UI. Along with changing some styles to modal-title so that movement ability is shown.
++ made modal-content draggable , using jquery-UI. Along with changing some styles to modal-title so that movement ability is shown.
 + modal-content window: added (-/+) to minimize/restore window ;  added (x) close button ; added opacity bar for it ; added button on top-right corner to open current subTree in "alternate_tree" page for faster more dynamic browsing.
 + in alternate tree pages: changed functionality of Arabic/English buttons to re-load the same current subTree but in different language , for faster more dynamic browsing.
 + some changes to lightBulb style / hover
