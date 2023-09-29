@@ -20,6 +20,17 @@ const highlights_submap_default = {strokeColor: '00ff00', fillColor: '008800', s
 const highlights_submap_AllOn = {strokeColor: '00ff00', fillColor: '008800', shadow : true, shadowRadius: 11 , alwaysOn: true};
     $(function () { $('.map').maphilight(highlights_submap_default); });
 </script>
+
+<!--  
+
+added bootstrap features, to make mobile-friendly , started 2023-09-29 
+commented OUT for now , because it made many issues with the original website
+needs time to better integrate and use it 
+
+<link rel="stylesheet" href="./res/bootstrap_4.0.0/css/bootstrap.min.css">
+<script src="./res/bootstrap_4.0.0/js/bootstrap.min.js"></script>
+
+-->
 	
 </head>
 
@@ -31,7 +42,7 @@ const highlights_submap_AllOn = {strokeColor: '00ff00', fillColor: '008800', sha
 <div id="trace" dir="ltr" style="text-align:left"><a class="traceLink" onclick="linkClick(this,0)" href="#0">*</a></div>
 
 <div id="alt_lang" class="alt-lang-tab" style="float:left;left:8px;">
-	<a style="font-size:20px" href="./ar/alt_index_ar.html" title="شجرة بديلة باللغة الـعـربـيـة"><b>عـربـي</b></a>
+	<a style="font-size:20px" href="#" onclick="openCurrentIndex(this); return false;" title="شجرة بديلة باللغة الـعـربـيـة"><b>عـربـي</b></a>
 </div>
 
 <div id="back" style="float:left;left:8px;"><img id="mainTreeIcon" src="./res/icons8-tree-64.ico" title="go back to drawing" onclick="goBack();"/></div>
@@ -65,6 +76,7 @@ const highlights_submap_AllOn = {strokeColor: '00ff00', fillColor: '008800', sha
 
 function goBack() { window.open("index.html","_self"); }
 loadAbout();
+loadUrlIndex();
 
 </script>
 
