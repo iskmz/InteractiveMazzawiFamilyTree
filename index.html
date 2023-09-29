@@ -16,12 +16,25 @@
 
 <script type="text/javascript" src="./res/jquery-3.3.1.min.js"></script>		<!-- LICENSE at:  ./res/LICENSE_jquery.txt 		-->
 <script type="text/javascript" src="./res/jquery.maphilight.min.js"></script>	<!-- LICENSE at:  ./res/LICENSE_maphilight.txt 	-->
+<script type="text/javascript" src="./res/jquery-ui-1.13.2.min.js"></script>	<!-- LICENSE at:  ./res/LICENSE_jquery-ui.txt 	-->
+
 <script type="text/javascript">
 	const highlights_default = {fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: false };
 	const highlights_AllOn = {fillColor: 'ff0000', strokeColor: '00ff00', shadow : true, shadowRadius: 11, alwaysOn: true };
     $(function () { $('.map').maphilight(highlights_default); });
 </script>
-	
+
+<!--  
+
+added bootstrap features, to make mobile-friendly , started 2023-09-29 
+commented OUT for now , because it made many issues with the original website
+needs time to better integrate and use it 
+
+<link rel="stylesheet" href="./res/bootstrap_4.0.0/css/bootstrap.min.css">
+<script src="./res/bootstrap_4.0.0/js/bootstrap.min.js"></script>
+
+-->
+
 </head>
 
 <!-------------------------------------------------------------------------------->
@@ -73,8 +86,18 @@
 <!-- modal -->
 <div id="subTree" class="modal"> 
 	<div class="modal-content">
-		<h3 id="modalTitle"></h3>
+		<div id="modalTitleDiv"><h3 id="modalTitle"></h3></div>
+		<div id="modalClose" onclick="closeModal();">&times;</div>
+		<div id="modalHideShow" onclick="modalHideShowToggle(this);">-</div>
+		<div id="toAltTree" onclick="openInAltTree();" title="show in alternate tree">&#x211F;</div>
 		<img id="lightBulb" src="./res/bulb.png" hidden/>
+		<div id="opacityBar" dir="ltr" title="change opacity">
+			<img id="opacityIcon" src="./res/icons8-opacity.png" onclick="toggleOpacityControls();"/>
+			<div id="opacityControls" style="display:none">
+				<input id="opacitySlider" type="range" min="2" max="10" value="8" step="2"/>
+				<div id="opacityValue" style="display:inline-block"></div>
+			</div>
+		</div>
 		<div id="div_modalImg"><img id="modalImg" src="#" usemap="#subMap" class="map"/></div>
 		<div id="div_subMap"><map id="subMap" name="subMap"></map></div>
 	</div>
