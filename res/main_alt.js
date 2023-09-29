@@ -5,7 +5,8 @@ const imgBulb = document.getElementById("lightBulb");
 const mainTreeIcon = document.getElementById("mainTreeIcon");
 const isArabic=(location.pathname.indexOf("_ar.html")!=-1);
 const traceDiv = document.getElementById("trace");
-const traceArrow = "<span class=\"arrow\">"+(isArabic?"🡸":"🡺")+"</span>";  // left_arrow : right_arrow // 
+const traceArrow = "<span class=\"arrow\">"+(isArabic?"&#x211B":"&#x2122")+"</span>"; // left_arrow:right_arrow // in original unicode: U+1F880 : U+1F882 , "🡸":"🡺" // in Symbola.ttf:  U+211B:U+2122 //
+var index; // global index, for tracking ... // 
 
 function addSubMap(smapArr)
 {
@@ -43,7 +44,6 @@ function addSubMap(smapArr)
 	// add event listeners for mainTreeIcon mouse-over-out events ...
 	mainTreeIcon.addEventListener("mouseover", highlightSubMap, false);
 	mainTreeIcon.addEventListener("mouseout", unhilightSubMap, false);
-	
 }
 
 function highlightSubMap() { $(function () { $('.map').maphilight(highlights_submap_AllOn); });   mainTreeIcon.style.backgroundColor="#00cc00"; }
@@ -54,7 +54,7 @@ function handleSubMapClick(e)
 	e.preventDefault();
 	if (e.target != e.currentTarget) 
 	{
-		var index = Number(e.target.getAttribute('href').substring(1)); // to discard # at pos=0 // get index of clicked area //
+		index = Number(e.target.getAttribute('href').substring(1)); // to discard # at pos=0 // get index of clicked area //
 		traceDivUpdate(e.target,index); // update trace div ('top-bar')
 		clearModalElements();	// clear current subMap & modalImg & modalTitle elements
 		updateModalElements(index); // build new modal title , img, and submap (if exists)
@@ -127,11 +127,12 @@ function traceDivUpdate(areaClicked,index)
 
 function hyperLinkStr(str,index) { return "<a class=\"traceLink\" onclick=\"linkClick(this,"+index+")\" href=\"#"+index+"\">"+str+"</a>"; }
 
-function linkClick(element,index)
+function linkClick(element,i)
 {
 	$(function(){ $(element).nextAll().remove(); });	// remove all siblings after link , including arrows (inside span)
 	clearModalElements(); // clear current subMap & modalImg & modalTitle elements
-	updateModalElements(index); // go to clicked link // i.e. change modal data: title, img , submap //
+	updateModalElements(i); // go to clicked link // i.e. change modal data: title, img , submap //
+	index = i; // update global var // 
 }
 
 function updateModalElements(index)
@@ -156,12 +157,18 @@ function clearModalElements()
 function loadAbout() {
 	// load "about_family" img with its title & submap //
 	updateModalElements(0);
+	index = 0; // global var // 
 	// override some styles //
-	document.getElementById("subTree").style.display = "block";  // override initial hidden state 
-	document.getElementById("subTree").style.position = "static"; // override main.css value ['fixed']
-	document.getElementById("subTree").firstElementChild.style.border = "0px solid transparent"; // override modal-content element border (remove)
-	document.getElementById("subTree").style.padding = "0px"; // override padding for modal
-	$(function () { $('.map').maphilight(highlights_submap_AllOn); }); // override initial state , to show "ibrahim" highlight on page load 
+	var subTreeModal = document.getElementById("subTree");
+	subTreeModal.style.display = "block";  // override initial hidden state 
+	subTreeModal.style.position = "static"; // override main.css value ['fixed']
+	subTreeModal.firstElementChild.style.border = "0px solid transparent"; // override modal-content element border (remove)
+	subTreeModal.style.padding = "0px"; // override padding for modal
+	// override some more styles
+	document.getElementById("modalTitle").style.backgroundColor = "#ffffff";
+	document.getElementById("modalTitle").style.cursor = "auto";
+	// override initial state , to show "ibrahim" highlight on page load 
+	$(function () { $('.map').maphilight(highlights_submap_AllOn); }); 
 }
 
 // copy mail to clipboard
@@ -183,4 +190,45 @@ function gotoSpecial()
 	traceDiv.innerHTML = res;
 	clearModalElements();	
 	updateModalElements(72);
+	index=72; // global var 
+}
+
+
+// load url index (passed from open modal window of original main tree: 'drawing')
+function loadUrlIndex()
+{
+	const url = location.href;
+	if(url.indexOf("#")==-1) return;
+	var urlIndex = Number(url.substring(url.lastIndexOf("#")+1));
+	if(isNaN(urlIndex)) {
+		console.log("Error, index is Not-A-Number");
+		return;
+	}
+	if(urlIndex<0 || urlIndex>=dataArr.length) { 
+		console.log("Error, index out of range: [ 0 , ",dataArr.length-1,"]"); 
+		return;
+	}
+	index = urlIndex; // to update global index // 
+	if(urlIndex==0) return; // loadAbout() was enough, no need to continue ... // 
+	// console.log(urlIndex);
+	clearModalElements(); // after loadingAbout .. for styles override ! // 
+	updateModalElements(urlIndex);
+	// traceDiv update from current index back to "O" //
+	var fullName = isArabic?dataArr[urlIndex].ar:dataArr[urlIndex].eng;
+	var res = traceArrow+hyperLinkStr(fullName.substring(0,fullName.indexOf(" ")),urlIndex);
+	var parentIndex = dataArr[urlIndex].smap[0].i;
+	while(parentIndex!=0)
+	{
+		var parentFull = isArabic?dataArr[parentIndex].ar:dataArr[parentIndex].eng;
+		res = traceArrow +  hyperLinkStr(parentFull.substring(0,parentFull.indexOf(" ")),parentIndex) + res;
+		parentIndex = dataArr[parentIndex].smap[0].i;
+	}
+	traceDiv.innerHTML = hyperLinkStr("*",0)+res;
+}
+
+// to change lang for alternate-trees but keep open for same subtree index 
+function openCurrentIndex(e)
+{
+	var pageURL = isArabic?"../alt_index.html":"./ar/alt_index_ar.html"; // Arabic->English , English->Arabic // 
+	window.open(pageURL+"#"+index,"_self"); // using GLOBAL var: index // 
 }

@@ -1,4 +1,4 @@
-const lastUpdateStr="2023.05.19 , 11:11";
+const lastUpdateStr="2023.09.29 , 11:11";
 document.getElementById("lastUpdate").innerHTML = lastUpdateStr;
 
 // = = = = =  = = = = =  = = = = =  = = = = =  = = = = =  = = = = =  = = = = =  = = = = =  = = = = =  = = = = =  = = = = =  = = = = = //
